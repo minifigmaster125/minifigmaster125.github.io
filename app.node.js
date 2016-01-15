@@ -924,7 +924,7 @@ module.exports =
           _react2['default'].createElement(
             'h1',
             null,
-            'Home Page'
+            'H Page'
           ),
           _react2['default'].createElement(
             'p',
