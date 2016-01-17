@@ -5,7 +5,7 @@
  */
 
 export default {
-  title: 'React Static Boilerplate',
-  description: 'Static website generator for React.js web applications.',
+  title: 'Suchaaver Chahal',
+  description: 'Portfolio',
   googleAnalyticsId: 'UA-XXXXX-X',
 };

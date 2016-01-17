@@ -1,0 +1,9 @@
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  margin: 2em 0 5em 0;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

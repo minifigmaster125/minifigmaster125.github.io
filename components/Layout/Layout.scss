@@ -5,6 +5,9 @@
  */
 
 @import '../variables.scss';
+@import '../index.scss';
+@import '../grid.scss';
+@import '../tech.scss';
 
 html, body {
   margin: 0;
@@ -16,6 +19,7 @@ html, body {
 
 .Layout {
   margin: 0 auto;
+  width: 80%;
 }
 
 @media (min-width: $screen-sm-min) {
