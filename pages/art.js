@@ -14,14 +14,14 @@ export default class extends Component {
       <div className = "bodySection">
         <div className = "grid">  
           <div className = "Intro fill">
-            <h1>Technology Experience</h1> 
+            <h1>Art</h1> 
           </div>
         </div>
-        <ul  className = "skills">
-          <li className = "skills-item ">
-            <img src={require('../static/ruby.png')} alt="asf"></img>
+        <div  className = "gallery">
+          <div className = "gallery-item ">
+            <img src={require('../static/art/mech_ninja.png')} alt="asf"></img>
             <p> Ruby on Rails </p>
-          </li>
+          </div>
           <li className = "skills-item ">
             <img src={require('../static/HTML5_Logo.svg')} alt="asf"></img>
             <p> HTML5/CSS3 </p>
@@ -50,7 +50,7 @@ export default class extends Component {
             <img src={require('../static/java.png')} alt="asf"></img>
             <p> Java </p>
           </li>
-        </ul>
+        </div>
       </div> 
     );
   }

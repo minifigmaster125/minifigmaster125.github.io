@@ -12,7 +12,7 @@ function Navigation() {
   return (
     <ul className="Navigation" role="menu">
       <li className="Navigation-item hypertest">
-        <a className="Navigation-link" href="/tech" onClick={Link.handleClick}>Tech Skills</a>
+        <a className="Navigation-link" href="/tech" onClick={Link.handleClick}>Tech</a>
       </li>
       <li className="Navigation-item">
         <a className="Navigation-link" href="/art" onClick={Link.handleClick}>Art</a>

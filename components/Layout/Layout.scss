@@ -8,6 +8,7 @@
 @import '../index.scss';
 @import '../grid.scss';
 @import '../tech.scss';
+@import '../art.scss';
 
 html, body {
   margin: 0;
@@ -39,3 +40,7 @@ html, body {
     width: calc($screen-lg-min - 30px);
   }
 }
+
+img {
+}
+
