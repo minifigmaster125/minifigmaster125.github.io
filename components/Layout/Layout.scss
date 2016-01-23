@@ -44,11 +44,11 @@ html, body {
 img {
 }
 
-p::selection{
+::selection{
   color: red;
 }
 
-p::-mox-selection{
+::-moz-selection{
   color: red;
 }
 

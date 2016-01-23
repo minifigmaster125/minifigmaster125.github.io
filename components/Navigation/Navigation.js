@@ -15,7 +15,7 @@ function Navigation() {
         <a className="Navigation-link" href="/tech" onClick={Link.handleClick}>Tech</a>
       </li>
       <li className="Navigation-item">
-        <a className="Navigation-link" href="/art" onClick={Link.handleClick}>Art</a>
+        <a className="Navigation-link" href="/art2d" onClick={Link.handleClick}>Art</a>
       </li>
       <li className="Navigation-item">
         <a className="Navigation-link" href="/projects" onClick={Link.handleClick}>Projects</a>

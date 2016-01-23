@@ -13,13 +13,13 @@ export default class extends Component {
       <div className = "grid">  
       <div className = "Intro col-1-2">
         <h1>Hi, I'm Suchaaver Chahal.</h1>
-        <p>I'm a senior studying Electrical Engineering In Computer Science at
+        <p>I'm a senior studying Electrical Engineering In Computer Science at UC
         Berkeley. I'm deeply interested in applications of robotics and 
         signal processing, particularly involving medicine. I am also no 
         stranger to fullstack web development, having established a relationship
         with Rails in my high school years.
         However, I first picked up programming due to a fascination with 
-        it's involvement in games, so it's only
+        its involvement in games. Thus, it's only
         natural I run a <a href="http://www.indiebn.com">game development blog</a>.
         Somewhere along the line I developed an interest in the art side of 
         game development. As a result, you can see my <a href="/art">portfolio </a> 
