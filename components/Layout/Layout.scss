@@ -44,3 +44,21 @@ html, body {
 img {
 }
 
+p::selection{
+  color: red;
+}
+
+p::-mox-selection{
+  color: red;
+}
+
+
+a{
+  text-decoration: none;
+  color: red;
+
+  &:hover{
+    color: hotpink;
+  }
+}
+
