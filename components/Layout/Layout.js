@@ -14,7 +14,6 @@ function Layout({ children }) {
     <div className="Layout">
       <Header />
       {children}
-      <Navigation />
     </div>
   );
 }

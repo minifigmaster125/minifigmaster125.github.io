@@ -22,7 +22,7 @@ export default class extends Component {
         its involvement in games. Thus, it's only
         natural I run a <a href="http://www.indiebn.com">game development blog</a>.
         Somewhere along the line I developed an interest in the art side of 
-        game development. As a result, you can see my <a href="/art">portfolio </a> 
+        game development. As a result, you can see my <a href="/art2d">portfolio </a> 
         of both 2D and 3D pieces. When I'm not fiddling with 3D software or 
         coding in some manner, you might find me playing soccer or working out. 
         My strength routine is heavily influenced by a gymanstic rings strength
@@ -33,7 +33,6 @@ export default class extends Component {
         
       </div>
       <div className = "Picture col-1-2">
-        <p> I'm A MONSTER </p>
       </div>
       </div>
      

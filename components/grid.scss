@@ -6,6 +6,12 @@
 
 }
 
+@media (max-width: 768px){
+  .grid {
+    flex-flow: column;
+  }
+}
+
 .col-1-2 {
   flex: 50% 0 1;
 }

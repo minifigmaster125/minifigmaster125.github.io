@@ -17,6 +17,7 @@ export default class extends Component {
             <h1>Technology Experience</h1> 
           </div>
         </div>
+        <p> * Adobe and Autodesk make downloading their logos difficult. </p>
         <ul  className = "skills">
           <li className = "skills-item ">
             <img src={require('../static/ruby.png')} alt="asf"></img>
@@ -49,6 +50,19 @@ export default class extends Component {
           <li className = "skills-item ">
             <img src={require('../static/java.png')} alt="asf"></img>
             <p> Java </p>
+          </li>
+          <li className = "skills-item ">
+            <img src={require('../static/blender.png')} alt="asf"></img>
+            <p> Blender </p>
+          </li>
+          <li className = "skills-item ">
+            <p> Photoshop </p>
+          </li>
+          <li className = "skills-item ">
+            <p> Illustrator </p>
+          </li>
+          <li className = "skills-item ">
+            <p> Maya </p>
           </li>
         </ul>
       </div> 
