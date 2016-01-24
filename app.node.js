@@ -1321,7 +1321,7 @@ module.exports =
             _react2["default"].createElement(
               "p",
               null,
-              "I'm a senior studying Electrical Engineering In Computer Science at UC Berkeley. I'm deeply interested in applications of robotics and signal processing, particularly involving medicine. I am also no stranger to fullstack web development, having established a relationship with Rails in my high school years. However, I first picked up programming due to a fascination with its involvement in games. Thus, it's only natural I run a ",
+              "I'm a senior studying Electrical Engineering and Computer Science at UC Berkeley. I'm deeply interested in applications of robotics and signal processing, particularly involving medicine. I am also no stranger to fullstack web development, having established a relationship with Rails in my high school years. However, I first picked up programming due to a fascination with its involvement in games. Thus, it's only natural I run a ",
               _react2["default"].createElement(
                 "a",
                 { href: "http://www.indiebn.com" },
@@ -1333,7 +1333,7 @@ module.exports =
                 { href: "/art2d" },
                 "portfolio "
               ),
-              "of both 2D and 3D pieces. When I'm not fiddling with 3D software or coding in some manner, you might find me playing soccer or working out. My strength routine is heavily influenced by a gymanstic rings strength program. It requires are great deal of muscle and joint strength as well as flexibility, which I believe is an excellent mixture to keep limber and fit."
+              "of both 2D and 3D pieces. When I'm not fiddling with 3D software or coding in some manner, you might find me playing soccer or working out. My strength routine is heavily influenced by a gymanstic rings strength program. It requires a great deal of muscle and joint strength as well as flexibility, which I believe is an excellent mixture to keep limber and fit."
             )
           ),
           _react2["default"].createElement("div", { className: "Picture col-1-2" })
