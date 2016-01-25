@@ -435,7 +435,7 @@ module.exports =
         _react2['default'].createElement(
           'a',
           { className: 'Header-link', href: '/art2d', onClick: _Link2['default'].handleClick },
-          'Art'
+          'Portfolio'
         )
       ),
       _react2['default'].createElement(
