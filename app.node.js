@@ -896,7 +896,7 @@ module.exports =
                 { href: 'http://minifigmaster125.deviantart.com/' },
                 ' DeviantArt'
               ),
-              ' for sketches as WIP.'
+              ' for sketches and WIP.'
             )
           ),
           _react2['default'].createElement(
@@ -905,32 +905,17 @@ module.exports =
             _react2['default'].createElement(
               'div',
               { className: 'gallery-item ' },
-              _react2['default'].createElement('img', { src: __webpack_require__(26), alt: 'asf' }),
-              _react2['default'].createElement(
-                'p',
-                null,
-                ' Cyber Ninja '
-              )
+              _react2['default'].createElement('img', { src: __webpack_require__(26), alt: 'asf' })
             ),
             _react2['default'].createElement(
               'li',
               { className: 'gallery-item ' },
-              _react2['default'].createElement('img', { src: __webpack_require__(27), alt: 'asf' }),
-              _react2['default'].createElement(
-                'p',
-                null,
-                ' Sword '
-              )
+              _react2['default'].createElement('img', { src: __webpack_require__(27), alt: 'asf' })
             ),
             _react2['default'].createElement(
               'li',
               { className: 'gallery-item ' },
-              _react2['default'].createElement('img', { src: __webpack_require__(25), alt: 'asf' }),
-              _react2['default'].createElement(
-                'p',
-                null,
-                ' Male Portrait, no reference model. '
-              )
+              _react2['default'].createElement('img', { src: __webpack_require__(25), alt: 'asf' })
             )
           )
         );
@@ -1033,7 +1018,7 @@ module.exports =
                 { href: 'http://minifigmaster125.deviantart.com/' },
                 ' DeviantArt'
               ),
-              ' for sketches as WIP.'
+              ' for sketches and WIP.'
             )
           ),
           _react2['default'].createElement(
@@ -1042,22 +1027,12 @@ module.exports =
             _react2['default'].createElement(
               'div',
               { className: 'gallery-item ' },
-              _react2['default'].createElement('img', { src: __webpack_require__(28), alt: 'asf' }),
-              _react2['default'].createElement(
-                'p',
-                null,
-                ' Blue Beastie. Fully rigged, utilizes normal map. 7400 quads. '
-              )
+              _react2['default'].createElement('img', { src: __webpack_require__(28), alt: 'asf' })
             ),
             _react2['default'].createElement(
               'div',
               { className: 'gallery-item ' },
-              _react2['default'].createElement('img', { src: __webpack_require__(29), alt: 'asf' }),
-              _react2['default'].createElement(
-                'p',
-                null,
-                ' Concept art, for Blender Guru Competition. Learned Blender post- processing with this one.'
-              )
+              _react2['default'].createElement('img', { src: __webpack_require__(29), alt: 'asf' })
             )
           )
         );
