@@ -1,0 +1,26 @@
+.header {
+    font-family: Verdana;
+    font-weight: 200;
+}
+
+h1, h2, h3, h4 {
+    font-family: Verdana;
+}
+
+p {
+    font-family: Georgia;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
