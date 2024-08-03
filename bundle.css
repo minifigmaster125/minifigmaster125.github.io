@@ -3,12 +3,17 @@
     font-weight: 200;
 }
 
+.subheader {
+    opacity: 0.5;
+}
+
 h1, h2, h3, h4 {
     font-family: Verdana;
 }
 
 p {
     font-family: Georgia;
+    line-height: 1.5;
 }
 
 ul {
@@ -19,8 +24,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
 
+.root {
+    background-color: blanchedalmond;
+}
+
+.link-no-style {
+    text-decoration: none;
+    color: black;
+}
 
 
 
