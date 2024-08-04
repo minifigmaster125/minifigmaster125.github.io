@@ -1,10 +1,13 @@
 .header {
     font-family: Verdana;
     font-weight: 200;
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
 
 .subheader {
     opacity: 0.5;
+    margin-bottom: 40px;
 }
 
 h1, h2, h3, h4 {
@@ -37,6 +40,29 @@ body {
     text-decoration: none;
     color: black;
 }
+
+main ol li {
+    font-family: Georgia;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+figure {
+    margin: 40px auto;
+    width: 100%;
+    height: auto;
+}
+
+figure img {
+    display: block;
+    margin: 16px auto;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+
 
 
 
