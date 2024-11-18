@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'routes/blog/style.css';
+
+@layer base {
+	h1 {
+		@apply text-3xl;
+	}
+	a:hover {
+		@apply text-amber-700;
+	}
+}

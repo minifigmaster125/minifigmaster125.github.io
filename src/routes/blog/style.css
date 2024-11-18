@@ -1,0 +1,20 @@
+.post p {
+	@apply py-2;
+}
+
+.post h2 {
+	@apply text-xl;
+}
+
+.post ol {
+	@apply list-decimal;
+}
+
+.prose img {
+	@apply py-4;
+	margin: 0 auto;
+}
+
+.prose {
+	max-width: 100%;
+}
