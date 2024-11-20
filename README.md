@@ -39,4 +39,4 @@ You can preview the production build with `npm run preview`.
 
 ## Misc
 
-This site is built using Svelte(+kit), Tailwind, BitsUI, amd MDSVEX
+This site is built using Svelte(+kit), Tailwind, BitsUI, amd MDSVEX.
