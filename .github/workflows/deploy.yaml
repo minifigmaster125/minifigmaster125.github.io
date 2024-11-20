@@ -8,20 +8,14 @@ on:
     inputs:
 
 jobs:
-  replace_md_image_uris:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Run Script
-        run: bash ./replaceMdImageUrls.sh
-
   build_site:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Replace Image Urls in Markdown
+        run: bash ./replaceMdImageUrls.sh
 
       # If you're using pnpm, add this step then change the commands and cache key below to use `pnpm`
       - name: Install pnpm
