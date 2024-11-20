@@ -4,8 +4,7 @@
 	import WindmillsOfZaanseSchans from '$lib/assets/WindmillsOfZaanseSchans.webp';
 	import AFriendAtTheCanal from '$lib/assets/AFriendAtTheCanal.webp';
 
-	import Image from '../../components/Image.svelte';
-	import { LinkHandler } from '../../utils';
+	import Image from '../../components/Image.svelte'
 </script>
 
 <h1 class="pb-8">Original Work</h1>
@@ -16,8 +15,8 @@
 	>.
 </p>
 <div class="grid grid-cols-3 gap-4">
-	<Image url={LinkHandler(AnAfternoonBreak)} title="An Afternoon Break" />
-	<Image url={LinkHandler(HowISteepMyTea)} title="How I Steep My Tea" />
-	<Image url={LinkHandler(AFriendAtTheCanal)} title="A Friend at the Canal" />
-	<Image url={LinkHandler(WindmillsOfZaanseSchans)} title="Windmills of Zaanse Schans" />
+	<Image url={AnAfternoonBreak} title='An Afternoon Break' />
+	<Image url={HowISteepMyTea} title='How I Steep My Tea' />
+	<Image url={AFriendAtTheCanal} title='A Friend at the Canal' />
+	<Image url={WindmillsOfZaanseSchans} title='Windmills of Zaanse Schans' />
 </div>

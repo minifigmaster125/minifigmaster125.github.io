@@ -1,5 +1,5 @@
 ---
-title: An Achievable Open World - A Short Hike 
+title: An Achievable Open World - A Short Hike
 date: 2024-08-01
 description: A brief look into what makes a small game feel big
 tags: [game design, writing]
