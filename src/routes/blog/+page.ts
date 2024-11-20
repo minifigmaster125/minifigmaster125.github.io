@@ -1,13 +1,7 @@
 
 import { error } from '@sveltejs/kit'
-// import { Post } from '$lib/types'
+// import { Post } from '../../lib/types.ts'
 
-export interface Post {
-	title: string
-	slug: string
-	date: string
-	tags: string[]
-}
 
 export async function load({ params }) {
 	try {

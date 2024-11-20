@@ -1,6 +1,6 @@
 export type Categories = 'sveltekit' | 'svelte'
 
-export interface Post {
+export type Post = {
 	title: string
 	slug: string
 	date: string

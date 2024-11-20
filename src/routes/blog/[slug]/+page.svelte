@@ -10,7 +10,7 @@
 <div class="py-4">
 	<div class="flex items-baseline justify-between">
 		<h1>{title}</h1>
-		<p>{formattedDate}</p>
+		<p class="flex-none">{formattedDate}</p>
 	</div>
 	<div class="flex gap-x-4 py-2">
 		{#each tags as tag}
