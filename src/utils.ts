@@ -5,9 +5,9 @@ export const LinkHandler = (link: string) => {
     return link
   }
 
-  if (link === '/') {
-    return base
-  }
+//   if (link === '/') {
+//     return base + '/'
+//   }
 
   return base + link
 }
