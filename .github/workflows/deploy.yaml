@@ -8,6 +8,12 @@ on:
     inputs:
 
 jobs:
+  replace_md_image_uris:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Script
+        runs: replaceMdImageUrls.bash
+
   build_site:
     runs-on: ubuntu-latest
     steps:

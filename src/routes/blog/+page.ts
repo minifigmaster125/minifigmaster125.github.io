@@ -2,24 +2,29 @@
 import { error } from '@sveltejs/kit'
 // import { Post } from '../../lib/types.ts'
 import * as fs from 'fs';
+import path from 'path';
 import { LinkHandler } from '../../utils';
 
 // Function to replace image URLs in a Markdown file
 function replaceImageUrlsInMarkdown(filePath: string, urlReplacer: (url: string) => string): void {
     // Read the markdown file content
-    const markdownContent = fs.readFileSync(filePath, 'utf-8');
+    // console.log('yo')
+    // console.log(__dirname)
+    // console.log(path.resolve(__dirname, filePath))
+    // const markdownContent = fs.readFileSync(path.resolve(__dirname, filePath), 'utf-8');
 
-    // Regular expression to match image URLs in Markdown (e.g. ![alt](url))
-    const imageRegex = /!\[([^\]]*)\]\(([^)]+)\)/g;
+    // // Regular expression to match image URLs in Markdown (e.g. ![alt](url))
+    // const imageRegex = /!\[([^\]]*)\]\(([^)]+)\)/g;
 
-    // Replace image URLs using the urlReplacer function
-    const updatedContent = markdownContent.replace(imageRegex, (match, altText, url) => {
-        const newUrl = urlReplacer(url);  // Call the provided function to replace the URL
-        return `![${altText}](${newUrl})`;  // Return the updated Markdown syntax
-    });
+    // // Replace image URLs using the urlReplacer function
+    // const updatedContent = markdownContent.replace(imageRegex, (match, altText, url) => {
+    //     const newUrl = urlReplacer(url);  // Call the provided function to replace the URL
+    //     console.log(newUrl)
+    //     return `![${altText}](${newUrl})`;  // Return the updated Markdown syntax
+    // });
 
-    // Write the updated content back to the file
-    fs.writeFileSync(filePath, updatedContent, 'utf-8');
+    // // Write the updated content back to the file
+    // fs.writeFileSync(filePath, updatedContent, 'utf-8');
 }
 
 
