@@ -14,7 +14,7 @@
 		href="https://www.instagram.com/suchaaverygoodartist">my instagram</a
 	>.
 </p>
-<div class="grid grid-cols-3 gap-4">
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 	<Image url={AnAfternoonBreak} title='An Afternoon Break' />
 	<Image url={HowISteepMyTea} title='How I Steep My Tea' />
 	<Image url={AFriendAtTheCanal} title='A Friend at the Canal' />
