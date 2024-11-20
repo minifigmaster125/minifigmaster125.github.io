@@ -29,7 +29,7 @@ process_directory() {
 
 # Example usage
 directory="./src/posts"
-url_prefix="minifigmaster125.github.io"
+url_prefix="http://minifigmaster125.github.io"
 
 # Process all .md files in the specified directory
 process_directory "$directory" "$url_prefix"
