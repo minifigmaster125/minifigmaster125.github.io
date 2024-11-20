@@ -1,9 +1,6 @@
 <script lang="ts">
 	import '../app.css';
 	let { children } = $props();
-
-	// for static site adapter
-	export const prerender = true;
 </script>
 
 <div class="flex min-h-screen justify-center bg-amber-100 py-8">
