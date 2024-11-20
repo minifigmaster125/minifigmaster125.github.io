@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { format } from 'date-fns';
+	import Tag from '../../../components/Tag.svelte';
 	// import Post from '../../../posts/post-1.md';
     // console.log(Post)
 	const { data } = $props();
@@ -14,9 +15,7 @@
 	</div>
 	<div class="flex gap-x-4 py-2">
 		{#each tags as tag}
-			<p class="text-sm text-amber-700">
-				{tag}
-			</p>
+			<Tag name={tag} />
 		{/each}
 	</div>
 </div>

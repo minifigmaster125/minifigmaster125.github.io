@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { format } from 'date-fns';
 	import { LinkHandler } from '../../utils.js';
+	import Tag from '../../components/Tag.svelte';
 
 	const { data } = $props();
 </script>
@@ -13,9 +14,9 @@
 				<p class="flex-none">{format(post.date, 'PPP')}</p>
 				<p>{post.title}</p>
 				<div class="w-14 flex-none"></div>
-				<div class="flex-none ml-auto flex gap-x-2">
+				<div class="ml-auto flex flex-none gap-x-2">
 					{#each post.tags as tag}
-						<p class="text-sm">{tag}</p>
+						<Tag name={tag} />
 					{/each}
 				</div>
 			</div>
