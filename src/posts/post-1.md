@@ -13,7 +13,7 @@ _Expect spoilers. This article takes a look at the game's design. If you don't w
 
 ### A Short Hike
 
-![A Short Hike](/A_Short_Hike.png)
+![A Short Hike](minifigmaster125.github.io//A_Short_Hike.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp; You are an anthropomorphic bird visiting a national park on an island, and you decide you are going to hike to the top of Hawk's Peak. The premise is simple, and the game feels tight. What I mean is that, through clever design, I was exposed to the mechanics necessary to explore the world without being told explicitly when to use them. The players often see the puzzles laid out in front of them and appreciate their designs, but the developer has to solve the larger puzzle of helping the player understand the set of their abilities and their interactions without the need for exposition. The game did not give the player hard, illogical boundaries. Instead, the island was architected such that as I played and gained more abilities, I realized I could go back and explore that which I was unable to previously.
 

@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Script
-        run: replaceMdImageUrls.bash
+        run: ./replaceMdImageUrls.bash
 
   build_site:
     runs-on: ubuntu-latest
