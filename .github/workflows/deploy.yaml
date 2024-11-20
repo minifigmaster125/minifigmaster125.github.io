@@ -4,6 +4,10 @@ on:
   push:
     branches: 'main'
 
+on: 
+  workflow_dispatch:
+    inputs:
+
 jobs:
   build_site:
     runs-on: ubuntu-latest
