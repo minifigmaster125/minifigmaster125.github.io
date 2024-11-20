@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { format } from 'date-fns';
+	import { LinkHandler } from '../../utils.js';
 
 	const { data } = $props();
 </script>
@@ -7,7 +8,7 @@
 <h1 class="pb-8">Articles</h1>
 {#each data.posts as post}
 	<div class="py-2">
-		<a href={`/blog/${post.slug}`}>
+		<a href={LinkHandler(`/blog/${post.slug}`)}>
 			<div class="flex items-baseline gap-x-4">
 				<p class="flex-none">{format(post.date, 'PPP')}</p>
 				<p>{post.title}</p>
