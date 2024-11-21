@@ -1,3 +1,7 @@
-<p>
-    Welcome to the home page. Click one of the links in the top right to explore.
-</p>
+<script>
+	import Post from '../components/Post.svelte';
+
+	const { data } = $props();
+</script>
+
+<Post post={data.latestPost} />

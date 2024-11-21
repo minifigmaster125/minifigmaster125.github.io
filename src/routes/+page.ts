@@ -1,16 +1,12 @@
-
 import { error } from '@sveltejs/kit'
 // import { Post } from '../../lib/types.ts'
-import { LinkHandler } from '../../utils';
 
-
-
-
+// Post object type doesn't work
 export async function load({ params }) {
 	try {
         let posts: Post[] = []
 
-	const paths = import.meta.glob('../../posts/*.md', { eager: true })
+	const paths = import.meta.glob('../posts/*.md', { eager: true })
 
 	for (const path in paths) {
 		const file = paths[path]
@@ -19,7 +15,7 @@ export async function load({ params }) {
 		if (file && typeof file === 'object' && 'metadata' in file && slug) {
 			const metadata = file.metadata as Omit<Post, 'slug'>
             const tags = metadata.tags
-			const post = { ...metadata, slug } satisfies Post
+			const post = { ...metadata, slug, file } satisfies Post
 			posts.push(post)
 		}
 	}
@@ -28,8 +24,14 @@ export async function load({ params }) {
     new Date(second.date).getTime() - new Date(first.date).getTime()
 	)
 
-	return { posts: posts }
+    const latestPost = await import(`../posts/${posts[0].slug}.md`)
+
+
+	return { latestPost: {
+        content: latestPost.default,
+        meta: latestPost.metadata
+    } }
 	} catch (e) {
-		error(404, `Could not find ${params.slug}`)
+		error(404, `Load failed`)
 	}
 }
