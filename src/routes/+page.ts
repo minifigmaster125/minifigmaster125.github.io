@@ -2,36 +2,36 @@ import { error } from '@sveltejs/kit'
 // import { Post } from '../../lib/types.ts'
 
 // Post object type doesn't work
-export async function load({ params }) {
-	try {
-        let posts: Post[] = []
+// export async function load({ params }) {
+// 	try {
+//         let posts: Post[] = []
 
-	const paths = import.meta.glob('../posts/*.md', { eager: true })
+// 	const paths = import.meta.glob('../posts/*.md', { eager: true })
 
-	for (const path in paths) {
-		const file = paths[path]
-		const slug = path.split('/').at(-1)?.replace('.md', '')
+// 	for (const path in paths) {
+// 		const file = paths[path]
+// 		const slug = path.split('/').at(-1)?.replace('.md', '')
 
-		if (file && typeof file === 'object' && 'metadata' in file && slug) {
-			const metadata = file.metadata as Omit<Post, 'slug'>
-            const tags = metadata.tags
-			const post = { ...metadata, slug, file } satisfies Post
-			posts.push(post)
-	}
-	}
+// 		if (file && typeof file === 'object' && 'metadata' in file && slug) {
+// 			const metadata = file.metadata as Omit<Post, 'slug'>
+//             const tags = metadata.tags
+// 			const post = { ...metadata, slug, file } satisfies Post
+// 			posts.push(post)
+// 	}
+// 	}
 
-	posts = posts.sort((first, second) =>
-    new Date(second.date).getTime() - new Date(first.date).getTime()
-	)
+// 	posts = posts.sort((first, second) =>
+//     new Date(second.date).getTime() - new Date(first.date).getTime()
+// 	)
 
-    const latestPost = await import(`../posts/${posts[0].slug}.md`)
+//     const latestPost = await import(`../posts/${posts[0].slug}.md`)
 
 
-	return { latestPost: {
-        content: latestPost.default,
-        meta: latestPost.metadata
-    } }
-	} catch (e) {
-		error(404, `Load failed`)
-	}
-}
+// 	return { latestPost: {
+//         content: latestPost.default,
+//         meta: latestPost.metadata
+//     } }
+// 	} catch (e) {
+// 		error(404, `Load failed`)
+// 	}
+// }

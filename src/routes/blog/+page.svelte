@@ -6,7 +6,7 @@
 	const { data } = $props();
 </script>
 
-<h1 class="pb-8">Posts</h1>
+<p class="pb-4"> You can get any new thoughts to your inbox by <a  class="text-amber-600 cursor-pointer" href="{LinkHandler("/subscribe")}">subscribing</a>.</p> 
 {#each data.posts as post}
 	<div class="py-2">
 		<a href={LinkHandler(`/blog/${post.slug}`)}>
