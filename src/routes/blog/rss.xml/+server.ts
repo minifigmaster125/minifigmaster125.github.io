@@ -66,7 +66,7 @@ async function getPosts() {
           <item>
             <title>${post.title}</title>
             <description>${post.description}</description>
-            <link>${website}/posts/${post.slug}/</link>
+            <link>${website}/blog/${post.slug}</link>
             <pubDate>${new Date(post.date)}</pubDate>
             <content:encoded>
                 ${post.html}
