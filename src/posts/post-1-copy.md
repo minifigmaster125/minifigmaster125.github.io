@@ -25,6 +25,7 @@ _Expect spoilers. This article takes a look at the game's design. If you don't w
 
  2. The player thinks it is well worth their time to explore beyond the game's main narrative because the other content feels meaningful.
 
+
  _A Short Hike_ limited its own scope from the outset, and thus was able to craft every experience and interaction uniquely, building upon the same mechanics that were required to reach the peak. One of the side quests taught me how to cover more ground on the island faster, which was not required to reach the peak, but made the rest of my island exploration much easier. That's the kind of reward the incentivizes a player to continue talking to every character and walking off the main path. Other experiences were less directly useful, like learning to fish, but it fits the game's aesthetic very well: a calm and cozy way to pass the time.
 
  I do not believe the game would fit my definition of achievable, however, if the main character movement loop was obtuse. In this case, _A Short Hike_ knocked it out of the park. The variations in movement qualities were well strung together in such a way that the act of traversing the island was entertaining unto itself. I spent a lot of time just combining running, jumping, gliding, and diving in different ways to see what parts of the island I could traverse in what ways.
