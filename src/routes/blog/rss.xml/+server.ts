@@ -4,7 +4,7 @@ import  showdown  from "showdown"
 
 const name = 'such is life'
 const website='https://suchaaverchahal.com'
-const description='Contemplations during creation - art, engineering, etc.'
+const description='Contemplation during creation - art, engineering, etc.'
 
 const conv = new showdown.Converter({metadata: true});
 

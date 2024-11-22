@@ -2,7 +2,7 @@
 title: An Achievable Open World - A Short Hike
 date: 2024-08-01
 description: A brief look into what makes a small game feel big
-tags: [game design, writing]
+tags: game design,writing
 ---
 
 _Expect spoilers. This article takes a look at the game's design. If you don't want the game spoiled, stop reading._

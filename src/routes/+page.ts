@@ -17,7 +17,7 @@ export async function load({ params }) {
             const tags = metadata.tags
 			const post = { ...metadata, slug, file } satisfies Post
 			posts.push(post)
-		}
+	}
 	}
 
 	posts = posts.sort((first, second) =>
