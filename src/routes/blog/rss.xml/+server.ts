@@ -1,9 +1,12 @@
 import { error } from "@sveltejs/kit"
 import { Post } from "../types.ts"
+import  showdown  from "showdown"
 
 const name = 'such is life'
 const website='https://suchaaverchahal.com'
 const description='Contemplations during creation - art, engineering, etc.'
+
+const conv = new showdown.Converter({metadata: true});
 
 async function getPosts() {
 	try {
@@ -14,11 +17,14 @@ async function getPosts() {
 	for (const path in paths) {
 		const file = paths[path]
 		const slug = path.split('/').at(-1)?.replace('.md', '')
+    const rawMarkdown = await import(`../../../posts/${slug}.md?raw`)
+    const html = conv.makeHtml(rawMarkdown.default);
 
 		if (file && typeof file === 'object' && 'metadata' in file && slug) {
 			const metadata = file.metadata as Omit<Post, 'slug'>
-            const tags = metadata.tags
+      const tags = metadata.tags
 			const post = { ...metadata, slug } satisfies Post
+      post.html = html
 			posts.push(post)
 		}
 	}
@@ -26,6 +32,7 @@ async function getPosts() {
 	posts = posts.sort((first, second) =>
     new Date(second.date).getTime() - new Date(first.date).getTime()
 	)
+
 
 	return posts
 	} catch (e) {
@@ -62,13 +69,7 @@ async function getPosts() {
             <link>${website}/posts/${post.slug}/</link>
             <pubDate>${new Date(post.date)}</pubDate>
             <content:encoded>
-              <div style="margin-top: 50px; font-style: italic;">
-                <strong>
-                  <a href="${website}/posts/${post.slug}">
-                    Keep reading
-                  </a>
-                </strong>  
-              </div>
+                ${post.html}
               </content:encoded>
           </item>
         `,
