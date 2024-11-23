@@ -5,4 +5,7 @@ export type Post = {
 	slug: string
 	date: string
 	tags: string[]
+	published: boolean
+	description: string
 }
+

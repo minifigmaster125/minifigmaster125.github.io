@@ -1,5 +1,5 @@
 import { error } from "@sveltejs/kit"
-import { Post } from "../types.ts"
+import type { Post } from "$lib"
 import  showdown  from "showdown"
 
 const name = 'such is life'
@@ -7,6 +7,15 @@ const website='https://suchaaverchahal.com'
 const description='Contemplation during creation - art, engineering, etc.'
 
 const conv = new showdown.Converter({metadata: true});
+
+interface metadata {
+    title: string,
+    slug: string,
+    date: string,
+    description: string,
+    tags: string
+    published: string //should be 'true' or 'false'
+}
 
 async function getPosts() {
 	try {
@@ -16,17 +25,18 @@ async function getPosts() {
 
 	for (const path in paths) {
 		const file = paths[path]
-		const slug = path.split('/').at(-1)?.replace('.md', '')
+		const slug = path.split('/').at(-1)?.replace('.md', '') as string
     const rawMarkdown = await import(`../../../posts/${slug}.md?raw`)
     const html = conv.makeHtml(rawMarkdown.default);
+    const metadata = conv.getMetadata(false) as metadata;
 
-		if (file && typeof file === 'object' && 'metadata' in file && slug) {
-			const metadata = file.metadata as Omit<Post, 'slug'>
+      console.log(metadata)
       const tags = metadata.tags
-			const post = { ...metadata, slug } satisfies Post
+      const post = { ...metadata, slug, tags: metadata.tags.split(','), published: metadata.published == 'true' } satisfies Post
       post.html = html
-			posts.push(post)
-		}
+      if (post.published) {
+        posts.push(post)
+      }
 	}
 
 	posts = posts.sort((first, second) =>
@@ -54,7 +64,7 @@ async function getPosts() {
   }
   
   const xml =
-    posts => `<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+    (posts: Post[]) => `<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
     <channel>
       <title>${name}</title>
       <link>${website}</link>

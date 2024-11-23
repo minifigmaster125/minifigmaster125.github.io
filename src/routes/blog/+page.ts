@@ -1,6 +1,7 @@
 
 import { error } from '@sveltejs/kit'
-// import { Post } from '../../lib/types.ts'
+import type { Post } from '$lib'
+import type { PageLoad } from './$types';
 import  showdown  from "showdown"
 
 const conv = new showdown.Converter({metadata: true});
@@ -11,9 +12,10 @@ interface metadata {
     date: string,
     description: string,
     tags: string
+    published: string //should be 'true' or 'false'
 }
 
-export async function load({ params }) {
+export const load : PageLoad = async ({ params }) => {
 	try {
         let posts: Post[] = []
 
@@ -25,15 +27,17 @@ export async function load({ params }) {
         const html = conv.makeHtml(postRaw.default);
         const metadata = conv.getMetadata(false) as metadata;
 
-        const post = { ...metadata, slug, tags: metadata.tags.split(',') } satisfies Post
-        posts.push(post)
+        const post = { ...metadata, slug, tags: metadata.tags.split(','), published: metadata.published == 'true' } satisfies Post
+
+        if (post.published){
+            posts.push(post)
+        }
 	}
 
 	posts = posts.sort((first, second) =>
     new Date(second.date).getTime() - new Date(first.date).getTime()
 	)
 
-    console.log(posts)
 
 	return { posts: posts }
 	} catch (e) {
