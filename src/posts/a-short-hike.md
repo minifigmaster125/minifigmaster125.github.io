@@ -29,7 +29,7 @@ With this definition, _A Short Hike_ fits the category of open world. Almost as 
 
 _A Short Hike_ limited its own scope from the outset, and thus was able to craft every experience and interaction uniquely, building upon the same mechanics that are required to reach the peak. One of the side quests taught me how to cover more ground on the island faster, which was not required to reach the peak, but made the rest of my island exploration much easier. That's the kind of reward the incentivizes a player to continue talking to every character and walking off the main path. Other experiences were less directly useful, like learning to fish, but it fits the game's aesthetic very well: a calm and cozy way to pass the time.
 
-![Flying is relaxing](https://i0.wp.com/www.the-pixels.com/wp-content/uploads/2021/12/gif2.gif?resize=422%2C237&ssl=1)
+![Flying is relaxing](https://i0.wp.com/www.the-pixels.com/wp-content/uploads/2021/12/gif2.gif)
 
 None of the above means anything, however, if the main character movement loop was obtuse. In this case, _A Short Hike_ excels. The variations in movement qualities are strung together in such a way that the act of traversing the island is entertaining unto itself. I spent a lot of time just combining running, jumping, gliding, and diving in different ways just because it was inherently fun to do so.
 
