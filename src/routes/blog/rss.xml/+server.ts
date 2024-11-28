@@ -1,5 +1,5 @@
 import { error } from "@sveltejs/kit"
-import type { Post } from "$lib"
+import type { Metadata, Post } from "$lib"
 import  showdown  from "showdown"
 
 const name = 'such is life'
@@ -24,23 +24,20 @@ async function getPosts() {
 	const paths = import.meta.glob('../../../posts/*.md', { eager: true })
 
 	for (const path in paths) {
-		const file = paths[path]
 		const slug = path.split('/').at(-1)?.replace('.md', '') as string
     const rawMarkdown = await import(`../../../posts/${slug}.md?raw`)
     const html = conv.makeHtml(rawMarkdown.default);
     const metadata = conv.getMetadata(false) as metadata;
 
-      console.log(metadata)
-      const tags = metadata.tags
-      const post = { ...metadata, slug, tags: metadata.tags.split(','), published: metadata.published == 'true' } satisfies Post
-      post.html = html
-      if (post.published) {
-        posts.push(post)
-      }
+    const meta = { ...metadata, slug, tags: metadata.tags.split(','), published: metadata.published == 'true' } satisfies Metadata
+    const post = {metadata: meta, html} 
+    if (meta.published) {
+      posts.push(post)
+    }
 	}
 
 	posts = posts.sort((first, second) =>
-    new Date(second.date).getTime() - new Date(first.date).getTime()
+    new Date(second.metadata.date).getTime() - new Date(first.metadata.date).getTime()
 	)
 
 
@@ -74,10 +71,10 @@ async function getPosts() {
           post =>
             `
           <item>
-            <title>${post.title}</title>
-            <description>${post.description}</description>
-            <link>${website}/blog/${post.slug}</link>
-            <pubDate>${new Date(post.date)}</pubDate>
+            <title>${post.metadata.title}</title>
+            <description>${post.metadata.description}</description>
+            <link>${website}/blog/${post.metadata.slug}</link>
+            <pubDate>${new Date(post.metadata.date)}</pubDate>
             <content:encoded>
                 ${post.html}
               </content:encoded>

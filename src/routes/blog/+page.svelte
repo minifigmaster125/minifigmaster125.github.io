@@ -6,16 +6,21 @@
 	const { data } = $props();
 </script>
 
-<p class="pb-4"> You can get any new thoughts to your inbox by <a  class="text-amber-600 cursor-pointer" href="{LinkHandler("/subscribe")}">subscribing</a>.</p> 
+<p class="pb-4">
+	You can get any new thoughts to your inbox by <a
+		class="cursor-pointer text-amber-600"
+		href={LinkHandler('/subscribe')}>subscribing</a
+	>.
+</p>
 {#each data.posts as post}
 	<div class="py-2">
-		<a href={LinkHandler(`/blog/${post.slug}`)}>
-			<div class="flex flex-wrap sm:flex-nowrap items-baseline gap-x-4 gap-y-2">
-				<p class="flex-none">{format(post.date, 'PPP')}</p>
-				<p>{post.title}</p>
+		<a href={LinkHandler(`/blog/${post.metadata.slug}`)}>
+			<div class="flex flex-wrap items-baseline gap-x-4 gap-y-2 sm:flex-nowrap">
+				<p class="flex-none">{format(post.metadata.date, 'PPP')}</p>
+				<p>{post.metadata.title}</p>
 				<div class="w-14 flex-none"></div>
 				<div class="ml-auto flex flex-none gap-x-2">
-					{#each post.tags as tag}
+					{#each post.metadata.tags as tag}
 						<Tag name={tag} />
 					{/each}
 				</div>
