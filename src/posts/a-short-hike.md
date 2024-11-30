@@ -2,7 +2,7 @@
 title: An Achievable Open World - A Short Hike
 date: 2024-11-23
 description: A brief look into what makes a small game feel big
-tags: game design
+tags: game design,
 read_time: 4
 published: true
 ---
@@ -31,6 +31,6 @@ _A Short Hike_ limited its own scope from the outset, and thus was able to craft
 
 ![Flying is relaxing](https://i0.wp.com/www.the-pixels.com/wp-content/uploads/2021/12/gif2.gif)
 
-None of the above means anything, however, if the main character movement loop was obtuse. In this case, _A Short Hike_ excels. The variations in movement qualities are strung together in such a way that the act of traversing the island is entertaining unto itself. I spent a lot of time combining running, jumping, gliding, and diving in different ways just because it was inherently fun to do so.
+None of the above means anything, however, if the main character movement loop was obtuse. In this case, _A Short Hike_ excels. The variations in movement qualities are strung together in such a way that the act of traversing the island is entertaining unto itself. I spent a lot of time just combining running, jumping, gliding, and diving in different ways just because it was inherently fun to do so.
 
 Through a high quality movement system and a well-defined and communicated (to the player) scope, _A Short Hike_ manages to create a world that feels as good to explore as it does to complete. The creator did a wonderful in-depth breakdown of the development process at GDC, which you can check out [here](https://www.youtube.com/watch?v=ZW8gWgpptI8).

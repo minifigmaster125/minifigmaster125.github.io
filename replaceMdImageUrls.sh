@@ -9,7 +9,11 @@ replace_image_urls() {
   cp "$file_path" "$file_path.bak"
 
   # Use sed to replace image URLs
-  sed -i.bak -E "s|\!\[(.*)\]\((/.*)\)|\![\1]($url_prefix/\2)|g" "$file_path"
+  # standard ![]() syntax
+  sed -i.bak -E "s|\!\[(.*)\]\(/(.*)\)|\![\1]($url_prefix/\2)|g" "$file_path"
+
+  # using <img> tag
+  sed -i.bak -E "s|=\"(/.*)\"|=\"$url_prefix/\1\"|g" "$file_path"
 
   echo "Image URLs have been replaced in: $file_path. Backup created as $file_path.bak"
 }
