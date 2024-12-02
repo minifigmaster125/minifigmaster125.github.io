@@ -3,7 +3,7 @@ title: The Amsterdam Experience
 date: 2024-11-29
 description: It's a small big city.
 tags: art,travel
-read_time: 5 min
+read_time: 5
 published: true
 ---
 
