@@ -30,7 +30,7 @@
 		A book called "Give and Take" by Adam Grant illustrates the idea that "Givers" help others
 		achieve success, which eventually leads them to their own success. "Takers" put their success
 		above the needs of others. They achieve success as well, but it is not as long-lasting and
-		life-changing as a consistent "Giver". Given these defitions, Izuku is a Giver, and Bakugo a
+		life-changing as a consistent "Giver". Given these definitions, Izuku is a Giver, and Bakugo a
 		Taker. Early on, this behavior responds accordingly. Izuku sees greater success than Bakugo --
 		gaining the trust of peers and mentors for his selfless behavior. But it is not as it seems, for
 		the weight of our expectations changes us all.
