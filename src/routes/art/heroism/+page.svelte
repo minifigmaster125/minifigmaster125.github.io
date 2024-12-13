@@ -21,7 +21,7 @@
 	>
 
 	<p>
-		I have long since wanted to painted this pair, perhaps because in their exchanges, I see myself
+		I have long since wanted to paint this pair, perhaps because in their exchanges, I see myself
 		talking to ... myself.
 	</p>
 	<br />
@@ -29,11 +29,11 @@
 	<p>
 		A book called "Give and Take" by Adam Grant illustrates the idea that "Givers" help others
 		achieve success, which eventually leads them to their own success. "Takers" put their success
-		above the needs of others. They achieve success as well, but it is not as long-lasting and life
-		changing as a consistent "Giver". Given these defitions, Izuku is a Giver, and Bakugo a Taker.
-		Early on, this behavior responds accordingly. Izuku sees greater success than Bakugo -- gaining
-		the trust of peers and mentors for his selfless behavior. But it is not as it seems, for the
-		weight of our expectations changes us all.
+		above the needs of others. They achieve success as well, but it is not as long-lasting and
+		life-changing as a consistent "Giver". Given these defitions, Izuku is a Giver, and Bakugo a
+		Taker. Early on, this behavior responds accordingly. Izuku sees greater success than Bakugo --
+		gaining the trust of peers and mentors for his selfless behavior. But it is not as it seems, for
+		the weight of our expectations changes us all.
 	</p>
 	<br />
 
@@ -43,11 +43,11 @@
 	</i>
 	<p>
 		Bakugo is talking about All Might, but what neither of them understood then was nobody's
-		admiration was correct. For Izuku, it was heroism at all costs -- self-sacrifice as illustrated
+		admiration was correct. For Izuku, it was heroism at any cost -- self-sacrifice, as illustrated
 		by his decision to take out the 0 point monster in the entry exam to UA. The weight of being the
-		heir of All for One forces a knee to bend, a kind personality trait transforms into an ideal,
-		and the Giver ... gives way. "Izuku" is slowly abandoned for "Deku", in much the same way that
-		Bruce Wayne is the mask. Self-sacrifice does not rely on others.
+		heir of All for One forced a knee to bend, a kind personality trait transformed into an ideal,
+		and the Giver ... gave way. "Izuku" was slowly abandoned for "Deku", in much the same way that
+		Bruce Wayne is the mask. Self-sacrifice does ask for help from others.
 	</p>
 	<br />
 
@@ -68,10 +68,10 @@
 		victory!" - Izuku, to himself during their first fight.
 	</i>
 	<p>
-		Every time Izuku and Bakugo have an exchange, they chip away at each other. For Izuku, it's an
-		honest admission that his strength is, in part, for more fallible reasons that the raw pursuit
-		of any heroic ideal. While this impurity is the fuel off which Bakugo's ideal feeds, it's the
-		chink in Deku's ideal.
+		Every time Izuku and Bakugo had an exchange, they chipped away at each other. For Izuku, it was
+		an honest admission that his strength was, in part, for more fallible reasons that the raw
+		pursuit of any heroic ideal. While this impurity was the fuel off which Bakugo's ideal feeds, it
+		was the chink in Deku's armor.
 	</p>
 	<br />
 	<p>
@@ -79,8 +79,17 @@
 		Bakugo, despite being surrounded by people that genuinely care for him, emotionally isolates
 		because dependence on them is weakness he cannot afford. Izuku, in the same situation,
 		physically isolates (in the vigilante arc) because dependence on them is a liability he cannot
-		afford. Only together can they lift each other out.
+		afford. Both put ideal above humanity, and for it they fracture again and again. Because an
+		ideal is pure, it alone justifies itself. An ideal cannot break. But humanity is impure.
+		Humanity does not exist alone. So humanity must break.
 	</p>
+	<br />
+    <p> I am reminded of something Archer in Fate/Stay Night says:</p>
+	<i>
+		If all you ever fight for are ideals, then all you will ever save are ideals. - Archer, Fate/Stay
+		Night
+    </i>
+    <br>
 	<br />
 	<i>
 		"...but I mean it Izuku. I'm sorry for everything I did. Every action you take is in the right
@@ -90,21 +99,22 @@
 	<p>
 		Bakugo was never filled with more self-conflict than when Deku acted. When Deku spoke, Bakugo
 		grew angry. When Deku acted, Bakugo grew to doubt himself. Eventually Deku's righteousness
-		caused Bakugo's self-image to shatter, which was the only way he could be rebuilt. On the other
-		hand, Izuku latches on to Bakugo's words. He champions "Deku", an insult Bakugo gave him. Yet in
-		this scene, Bakugo does not say "Deku." He says "Izuku", and he says "I'm sorry".
+		caused Bakugo's self-image to shatter, which was the only way he could be rebuilt. I used "Deku"
+		instead of "Izuku" on purpose in those last few sentences. On the other hand, Izuku latches on
+		to Bakugo's words. He champions "Deku", an insult Bakugo gave him. Yet in this scene, Bakugo
+		does not say "Deku." He says "Izuku", and he says "I'm sorry".
 		<strong>"Izuku"</strong> because nobody can be a hero before they are a person.
 		<strong>"I'm sorry"</strong>
 		because Izuku's heroism was perversed by a need to prove Bakugo wrong.
 		<strong>"I'm sorry"</strong>
-		because it's the most difficult and authentic thing for a man shaped by pride to say.
+		because it's the most difficult and authentic thing for a man cursed by pride to say.
 		<strong>"I'm sorry"</strong> because Izuku is sorry as well.
 	</p>
 	<br />
 	<p>
 		Perhaps the paintings exist as a dialogue between the two. "Heavy is the Crown" as Deku
 		acknowledging the isolation and crushing weight of self-expectation that were suffocating
-		Bakugo. "Is This the Strength You Sought?" as Bakugo asking Deku if the Hero is worth the price of
-		the man.
+		Bakugo. "Is This the Strength You Sought?" as Bakugo asking Deku if the Hero is worth the price
+		of the man.
 	</p>
 </div>
