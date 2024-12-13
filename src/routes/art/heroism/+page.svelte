@@ -12,7 +12,7 @@
 	>
 
 	<div class="flex flex-row flex-wrap md:flex-nowrap md:justify-evenly md:gap-20">
-		<Image url={LinkHandler('/deku.JPG')} title="Is This the Strength You Sought?" above={true} />
+		<Image url={LinkHandler('/deku.jpeg')} title="Is This the Strength You Sought?" above={true} />
 		<Image url={LinkHandler('/Bakugo.jpg')} title="Heavy is the Crown" above={true} />
 	</div>
 
