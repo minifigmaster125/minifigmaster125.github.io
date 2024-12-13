@@ -19,5 +19,6 @@
 			</nav>
 		</div>
 		{@render children()}
+		<br>
 	</div>
 </div>
