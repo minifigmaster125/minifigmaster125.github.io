@@ -45,9 +45,9 @@
 		Bakugo is talking about All Might, but what neither of them understood then was nobody's
 		admiration was correct. For Izuku, it was heroism at any cost -- self-sacrifice, as illustrated
 		by his decision to take out the 0 point monster in the entry exam to UA. The weight of being the
-		heir of All for One forced a knee to bend, a kind personality trait transformed into an ideal,
+		heir of One for All forced a knee to bend, a kind personality trait transformed into an ideal,
 		and the Giver ... gave way. "Izuku" was slowly abandoned for "Deku", in much the same way that
-		Bruce Wayne is the mask. Self-sacrifice does ask for help from others.
+		Bruce Wayne is the mask. Self-sacrifice does not ask for help from others.
 	</p>
 	<br />
 
@@ -57,7 +57,7 @@
 		lauded as strong. Pride became attached to that strength, and with pride came an immense fear of
 		failure. Perfection was the final response. Bakugo's ambition to be the #1 becomes impure,
 		fueled by an expectation followed by a self-hatred that burns incredibly hot, perhaps almost
-		explosive. It's an isolating, spiraling desperation. It's a strength that does not rely on
+		explosive. It's an isolating, spiraling desperation. Sheer strength does not ask for help from
 		others.
 	</p>
 
@@ -84,12 +84,12 @@
 		Humanity does not exist alone. So humanity must break.
 	</p>
 	<br />
-    <p> I am reminded of something Archer in Fate/Stay Night says:</p>
+	<p>I am reminded of something Archer in Fate/Stay Night says:</p>
 	<i>
-		If all you ever fight for are ideals, then all you will ever save are ideals. - Archer, Fate/Stay
-		Night
-    </i>
-    <br>
+		If all you ever fight for are ideals, then all you will ever save are ideals. - Archer,
+		Fate/Stay Night
+	</i>
+	<br />
 	<br />
 	<i>
 		"...but I mean it Izuku. I'm sorry for everything I did. Every action you take is in the right
