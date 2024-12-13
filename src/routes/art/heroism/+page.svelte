@@ -86,8 +86,7 @@
 	<br />
 	<p>I am reminded of something Archer in Fate/Stay Night says:</p>
 	<i>
-		If all you ever fight for are ideals, then all you will ever save are ideals. - Archer,
-		Fate/Stay Night
+		If all you ever fight for are ideals, then all you will ever save are ideals.
 	</i>
 	<br />
 	<br />
