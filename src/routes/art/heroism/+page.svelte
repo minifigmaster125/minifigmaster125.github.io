@@ -17,7 +17,7 @@
 	</div>
 
 	<i class="mx-auto block max-w-screen-sm py-8 text-center"
-		>There are My Hero Academia spoilers in words that follow.</i
+		>There are My Hero Academia spoilers in the words that follow.</i
 	>
 
 	<p>
@@ -39,8 +39,10 @@
 
 	<i>
 		"If the way you admired him was correct, then does that mean my admiration was wrong?" - Bakugo,
-		during him and Izuku's first fight.
+		during him and Izuku's fight after saving Bakugo from the League of Villains.
 	</i>
+	<br />
+	<br />
 	<p>
 		Bakugo is talking about All Might, but what neither of them understood then was nobody's
 		admiration was correct. For Izuku, it was heroism at any cost -- self-sacrifice, as illustrated
@@ -63,10 +65,13 @@
 
 	<br />
 	<i>
-		"When my feeling of 'I have to beat you' is stronger than 'I have to save you' .... but the
-		thing is, my mental image of 'victory' ... is you. .. I want to beat you, the incarnation of
-		victory!" - Izuku, to himself during their first fight.
+		"When my feeling of 'I have to beat you' is stronger than 'I have to save you' ... but the
+		thing is, my mental image of 'victory' ... is you. ... I want to beat you, the incarnation of
+		victory!" - Izuku, to himself during their fight after recovering Bakguo from the League of Villains.
 	</i>
+	<br />
+
+	<br />
 	<p>
 		Every time Izuku and Bakugo had an exchange, they chipped away at each other. For Izuku, it was
 		an honest admission that his strength was, in part, for more fallible reasons that the raw
@@ -95,6 +100,8 @@
 		direction. But you can barely stand now." - Bakugo, when they bring Izuku back during the
 		vigilante arc.
 	</i>
+	<br />
+	<br />
 	<p>
 		Bakugo was never filled with more self-conflict than when Deku acted. When Deku spoke, Bakugo
 		grew angry. When Deku acted, Bakugo grew to doubt himself. Eventually Deku's righteousness
@@ -111,7 +118,7 @@
 	</p>
 	<br />
 	<p>
-		Perhaps the paintings exist as a dialogue between the two. "Heavy is the Crown" as Deku
+		We may not be anything like these two, but we all find fragments of ourselves in each character. Perhaps the paintings exist as a dialogue between the two. "Heavy is the Crown" as Deku
 		acknowledging the isolation and crushing weight of self-expectation that were suffocating
 		Bakugo. "Is This the Strength You Sought?" as Bakugo asking Deku if the Hero is worth the price
 		of the man.
