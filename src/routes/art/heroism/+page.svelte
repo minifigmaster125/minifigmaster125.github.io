@@ -65,16 +65,17 @@
 
 	<br />
 	<i>
-		"When my feeling of 'I have to beat you' is stronger than 'I have to save you' ... but the
-		thing is, my mental image of 'victory' ... is you. ... I want to beat you, the incarnation of
-		victory!" - Izuku, to himself during their fight after recovering Bakguo from the League of Villains.
+		"When my feeling of 'I have to beat you' is stronger than 'I have to save you' ... but the thing
+		is, my mental image of 'victory' ... is you. ... I want to beat you, the incarnation of
+		victory!" - Izuku, to himself during their fight after recovering Bakguo from the League of
+		Villains.
 	</i>
 	<br />
 
 	<br />
 	<p>
 		Every time Izuku and Bakugo had an exchange, they chipped away at each other. For Izuku, it was
-		an honest admission that his strength was, in part, for more fallible reasons that the raw
+		an honest admission that his strength was, in part, for more fallible reasons than the raw
 		pursuit of any heroic ideal. While this impurity was the fuel off which Bakugo's ideal feeds, it
 		was the chink in Deku's armor.
 	</p>
@@ -90,9 +91,7 @@
 	</p>
 	<br />
 	<p>I am reminded of something Archer in Fate/Stay Night says:</p>
-	<i>
-		If all you ever fight for are ideals, then all you will ever save are ideals.
-	</i>
+	<i> If all you ever fight for are ideals, then all you will ever save are ideals. </i>
 	<br />
 	<br />
 	<i>
@@ -118,7 +117,8 @@
 	</p>
 	<br />
 	<p>
-		We may not be anything like these two, but we all find fragments of ourselves in each character. Perhaps the paintings exist as a dialogue between the two. "Heavy is the Crown" as Deku
+		We may not be anything like these two, but we all find fragments of ourselves in each character.
+		Perhaps the paintings exist as a dialogue between the two. "Heavy is the Crown" as Deku
 		acknowledging the isolation and crushing weight of self-expectation that were suffocating
 		Bakugo. "Is This the Strength You Sought?" as Bakugo asking Deku if the Hero is worth the price
 		of the man.
