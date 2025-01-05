@@ -55,7 +55,7 @@ is the Crown" />
 
 I painted these two as an attempt to shift toward something that I felt more
 inspired by, both emotionally and aesthetically. I've already written at length
-about the emotional inspiration [here](/art/heroism). Aesthetically, however, I
+about the emotional inspiration [here](https://minifigmaster125.github.io/art/heroism). Aesthetically, however, I
 wanted to introduce a more traditional touch. One part of that is the texture, the
 other part is the loose stroke quality. It feels like a blend between
 impressionism and painterly (though the definitions are vague,
@@ -75,7 +75,7 @@ believe it is a style I should commit more time to.
 </div>
 
 Amsterdam was a big part of the last quarter of the year, but if you want to read
-about that, go [here](/blog/the-amsterdam-experience). I explored more of the
+about that, go [here](https://minifigmaster125.github.io/blog/the-amsterdam-experience). I explored more of the
 painterly style while I was there. After coming home, I took a look at my
 paintings from my time in Greece two years ago. Things have certainly changed
 (I am a much better artist), but there are hints of style in the older work
