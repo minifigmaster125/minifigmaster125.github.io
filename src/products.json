@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Del Hoge Veluwe",
+        "slug":"del-hoge-veluwe",
+        "imageUrl": "https://images.suchaaverchahal.com/NationalPark.webp",
+        "description": "An overcast day in this national park of Netherlands. Inside it is the Kroller Muller museusm, home to the second largest collection of Van Gogh paintings. I remember this setting fondly -- very few people were at the park. The silence was deafening.",
+        "size": "11x14",
+        "price": 29.99
+    },
+    {
+        "name": "Windmills",
+        "slug": "windmills",
+        "imageUrl": "https://images.suchaaverchahal.com/WindmillsOfZaanseSchans.webp",
+        "description": "I was lucky to be able to see the windmills of Zaanse Schans under a clear blue sky at the start of November. The water was calm, as was the afternoon sun. I found the green tip of the base and the orange wings to be pleasing given their contrast to the blueness all around.",
+        "size": "11x14",
+        "price": 29.99
+    },
+    {
+        "name": "An Afternoon Break",
+        "slug": "an-afternoon-break",
+        "imageUrl":"https://images.suchaaverchahal.com/AnAfternoonBreak.webp",
+        "description": "Amsterdam has many parks, but Vondelpark may be the most famous. I spotted a moment of simple solitude, which I think more people ought to find joy in. I know not what that man was truly feeling, but I tell myself it was peace.",
+        "size": "11x14",
+        "price": 29.99
+    },
+    {
+        "name": "Friend at the Canal",
+        "slug": "friend-at-the-canal",
+        "imageUrl": "https://images.suchaaverchahal.com/AFriendAtTheCanal.webp",
+        "description": "I made the acquaintance of a woman who was journaling at a bench near me. I was sketching at the time, and thought it would be nice to make a painting with a figure as the strong focus. I asked her if she would mind being in the painting, and she agreed. As it turns out, she was an illustrator! We had much to discuss.",
+        "size": "11x14",
+        "price": 29.99
+    }
+]

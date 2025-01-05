@@ -1,8 +1,11 @@
 <script lang="ts">
+	import Card from '../../components/Card.svelte';
 	import Image from '../../components/Image.svelte';
 	import { LinkHandler } from '../../utils';
+	import Products from '../../products.json';
 </script>
 
+<!-- <h1 class="pb-8">Fine Art Prints</h1> -->
 <h1 class="pb-8">Original Work</h1>
 <p class="pb-4">
 	You can find many more sketches, fan illustrations, and process videos on <a
@@ -11,11 +14,17 @@
 	>.
 </p>
 <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
-	<Image url={LinkHandler('/NationalPark.webp')} title="Del Hoge Veluwe National Park" />
-	<Image url={LinkHandler('/AnAfternoonBreak.webp')} title="An Afternoon Break" />
+	{#each Products as product}
+		<Image url={product.imageUrl} title={product.name} />
+		<!-- after shop is operational -->
+		<!-- <Card
+			to={`/art/${product.slug}`}
+			src={product.imageUrl}
+			title={product.name}
+			price={product.price}
+		/> -->
+	{/each}
 	<Image url={LinkHandler('/HowISteepMyTea.webp')} title="How I Steep My Tea" />
-	<Image url={LinkHandler('/AFriendAtTheCanal.webp')} title="A Friend at the Canal" />
-	<Image url={LinkHandler('/WindmillsOfZaanseSchans.webp')} title="Windmills of Zaanse Schans" />
 	<Image url={LinkHandler('/Mack.webp')} title="Mack" />
 	<Image url={LinkHandler('/momsLily.jpg')} title="Mom's Lily" />
 	<Image url={LinkHandler('/bisonOfUtah.webp')} title="Bison in Utah" />

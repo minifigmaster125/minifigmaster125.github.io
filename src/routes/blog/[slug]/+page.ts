@@ -2,9 +2,10 @@
 import type { Metadata, Post } from '$lib';
 import { error } from '@sveltejs/kit'
 import  showdown  from "showdown"
-import type { PageLoad } from '../$types';
+import type { PageLoad } from './$types';
 
 const conv = new showdown.Converter({metadata: true});
+conv.setOption('moreStyling', true)
 
 interface metadata {
     title: string,

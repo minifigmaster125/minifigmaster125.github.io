@@ -9,6 +9,6 @@
 <p class="pb-4 text-center">
 	You can get any new thoughts to your inbox by <a
 		class="cursor-pointer text-amber-600"
-		href="{LinkHandler('/subscribe')}">subscribing</a
+		href={LinkHandler('/subscribe')}>subscribing</a
 	>.
 </p>
