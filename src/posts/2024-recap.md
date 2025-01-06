@@ -15,7 +15,7 @@ Afternoon Break" width="400"/>
 
 I started reading fantasy near the start of the year (Brandon Sanderson's
 _Stormlight Archive_), and it had me in a worldbuilding kick. I'm not much of a
-character designer, but was I was fond of this character's ... character.
+character designer, but I was fond of this character's ... character.
 Learning worldbuilding and character design is certainly something I would like
 to spend more time doing.
 
@@ -98,10 +98,9 @@ I did not practice as much as I had previously. Yet I learned a
 reasonable amount, and I think it's because I know enough about art now to
 understand **how to learn art**. I am under no pretense<sup>1</sup> of being a master, but
 I feel it's a lot like working out. I've spent enough years doing it that I
-know how my body responds to different stimulus. I understand the fundamental
-conceptes and theories. I know the training patterns and
-movements I click with, and I know how to push my limits. All that being said,
-injuries still happen. It's knowing how to train (live) well despite injury (hardship) that
+know how my body responds to different stimuli. I understand the fundamental
+concepts. I know the movements I click with and how to push my limits. All that being said,
+injuries still happen. It's being able to train (live) well despite injury (hardship) that
 makes the experienced lifter (human being).
 
 <br />
