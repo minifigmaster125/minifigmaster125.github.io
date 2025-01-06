@@ -104,7 +104,7 @@ movements I click with, and I know how to push my limits. All that being said,
 injuries still happen. It's knowing how to train (live) well despite injury (hardship) that
 makes the experienced lifter (human being).
 
-<br>
+<br />
 
 1. I initially wrote "false pretense" as that is how I see it commonly used, but
    after some thinking I realized that phrase is a
