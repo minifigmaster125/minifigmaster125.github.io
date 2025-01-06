@@ -16,7 +16,7 @@
 	<div class="py-2">
 		<a href={LinkHandler(`/blog/${post.metadata.slug}`)}>
 			<div class="flex flex-wrap items-baseline gap-x-4 gap-y-2 sm:flex-nowrap">
-				<p class="flex-none">{format(post.metadata.date, 'PPP')}</p>
+				<p class="flex-none w-48">{format(post.metadata.date, 'PPP')}</p>
 				<p>{post.metadata.title}</p>
 				<div class="w-14 flex-none"></div>
 				<div class="ml-auto flex flex-none gap-x-2">
