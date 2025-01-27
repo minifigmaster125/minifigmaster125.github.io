@@ -13,13 +13,13 @@
 	>.
 </p>
 {#each data.posts as post}
-	<div class="py-2">
+	<div class="py-3">
 		<a href={LinkHandler(`/blog/${post.metadata.slug}`)}>
-			<div class="flex flex-wrap items-baseline gap-x-4 gap-y-2 sm:flex-nowrap">
-				<p class="flex-none w-48">{format(post.metadata.date, 'PPP')}</p>
+			<div class="flex flex-wrap items-baseline gap-x-4 gap-y-2 sm:flex-nowrap flex-col md:flex-row">
+				<p class="flex-none w-48 text-sm">{format(post.metadata.date, 'PP')}</p>
 				<p>{post.metadata.title}</p>
-				<div class="w-14 flex-none"></div>
-				<div class="ml-auto flex flex-none gap-x-2">
+				<div class="w-14 flex-none hidden md:block"></div>
+				<div class="md:ml-auto flex flex-none gap-x-2">
 					{#each post.metadata.tags as tag}
 						<Tag name={tag} />
 					{/each}
