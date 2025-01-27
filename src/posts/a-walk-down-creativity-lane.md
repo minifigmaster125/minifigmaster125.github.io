@@ -191,7 +191,7 @@ During all those years I spent practicing art, I kept tabs on my other flames.
 Not dead, but smoldering. I never unsubscribed from the r/gamedev subreddit, and
 I got a regular newsletter for all things 3D art from our savior Andrew Price of
 Blender Guru. I kept up with open source game engine updates, and occasionally
-watched talks from GDC (Game Developers Conference) every year. Every time I
+watched talks from GDC (Game Developers Conference) every year. Each time I
 would consume some content from the other side, I would feel a tug. The
 suffocation I spoke of earlier was not a one time deal. I suffered through that
 regularly, each time affirming that any worthy pursuit requires sacrifice,
