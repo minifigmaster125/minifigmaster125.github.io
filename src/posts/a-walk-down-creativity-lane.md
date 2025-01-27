@@ -208,7 +208,7 @@ all like I once did. But for that to happen, the primary fire I nutured must
 burn with less vigor.
 
 I made a choice a long time ago, and stayed the
-course. The choice presented itself once more. This time, I have chosen
+course. The choice presented itself once more. This time, I chose
 differently.
 
 No man steps in the same river twice. For it is not the same river,
