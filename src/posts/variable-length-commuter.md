@@ -11,13 +11,13 @@ I just spent a month in New York City, and I had the opportunity to participate 
 
 <div style="display:flex;gap:10px;">
 <figure>
-<img  src="https://images.suchaaverchahal.com/person1.jpg" width=300 />
+<img  src="https://images.suchaaverchahal.com/person1.jpg" width="300" />
 </figure>
 <figure>
-<img  src="https://images.suchaaverchahal.com/person2.jpg" width=300 />
+<img  src="https://images.suchaaverchahal.com/person2.jpg" width="300" />
 </figure>
 <figure>
-<img  src="https://images.suchaaverchahal.com/person3.jpg" width=300 />
+<img  src="https://images.suchaaverchahal.com/person3.jpg" width="300" />
 </figure>
 </div>
 
@@ -33,7 +33,7 @@ The subway is not exactly a smooth ride. It sounds obvious, but if the artist ca
 
 There is perhaps one scenario in which standing can work. I have depicted it below. The artist needs an anchor they can hold while keeping both hands free to hold the tools. Having tried it, I can say that sitting is still exponentially easier.
 
-<img  css="display:block;margin:auto;" src="https://images.suchaaverchahal.com/anchor.jpg" width=300 />
+<img  css="display:block;margin:auto;" src="https://images.suchaaverchahal.com/anchor.jpg" width="300" />
 
 Some will say that they have no problem standing without support while commuting, and to that I say -- try writing something.
 
@@ -60,7 +60,7 @@ Let me let you in on one more secret -- the subject does not have to be people! 
 
 Before I conclude, I would like to briefly touch on my tools in this experiment. I don't own a fanny-pack nor I do I have a backpack on me all times, so I wanted items I could keep directly on my person.
 
-<img  css="display:block;margin:auto;" src="https://images.suchaaverchahal.com/tools.jpg" width=500 />
+<img  css="display:block;margin:auto;" src="https://images.suchaaverchahal.com/tools.jpg" width="500" />
 
 The black sketchbook is something I bought in an art store in Utrecht (a short train ride away from Amsterdam). The number of pages (not a lot) and the binding means it has no issue being folded, and its size makes it perfect for fitting in my back pocket. I bought three of those and I find them very effective.
 

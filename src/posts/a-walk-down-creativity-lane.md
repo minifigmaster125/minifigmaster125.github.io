@@ -65,7 +65,7 @@ that game development was falling rapidly into my lap (my brother was actually a
 programmer for said fan game).
 
 <figure>
-<img src="https://images.suchaaverchahal.com/blender25.jpg" width="500">
+<img src="https://images.suchaaverchahal.com/blender25.jpg" width="500"/>
 <figcaption style="text-align:center;"><i>That's a lot of buttons</i></figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ painted this mug on a Friday evening, which was met with much laughter by my flo
 mates at the time. I have forgiven, but not forotten (I'm kidding, maybe).
 
 <figure>
-<img src="https://images.suchaaverchahal.com/redMug.png" width="500">
+<img src="https://images.suchaaverchahal.com/redMug.png" width="500"/>
 <figcaption style="text-align:center;"><i>My magnum opus</i></figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ hardest part about building games is actually finishing it. The last 10% of
 polish takes 90% of the time.
 
 <figure>
-<img src="https://images.suchaaverchahal.com/sharpestBlade.png" width="500">
+<img src="https://images.suchaaverchahal.com/sharpestBlade.png" width="500"/>
 <figcaption style="text-align:center;"><i>Best screenshot I have sorry</i></figcaption>
 </figure>
 

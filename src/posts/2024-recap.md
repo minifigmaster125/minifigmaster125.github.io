@@ -10,8 +10,7 @@ published: true
 Most people would look at previous photos to remember what their year was about.
 I have the opportunity to look at art.
 
-<img src="https://images.suchaaverchahal.com/characterSketch.webp" alt="An
-Afternoon Break" width="400"/>
+<img src="https://images.suchaaverchahal.com/characterSketch.webp" alt="An Afternoon Break" width="400"/>
 
 I started reading fantasy near the start of the year (Brandon Sanderson's
 _Stormlight Archive_), and it had me in a worldbuilding kick. I'm not much of a
@@ -19,8 +18,7 @@ character designer, but I was fond of this character's ... character.
 Learning worldbuilding and character design is certainly something I would like
 to spend more time doing.
 
-<img src="https://images.suchaaverchahal.com/FrierenAndFernWeb.webp" alt="A
-Short Rest"/>
+<img src="https://images.suchaaverchahal.com/FrierenAndFernWeb.webp" alt="A Short Rest"/>
 
 <figcaption style="text-align:center;"><i>A Short Rest</i></figcaption>
 
@@ -33,8 +31,7 @@ simultaneously. My mentor had many color roughs waiting to be realized. I have a
 focusing on one painting at a time, and I think it burns me out a bit. I'm not
 much better now, but I have not forgotten.
 
-<img src="https://images.suchaaverchahal.com/dungeonMeshiForWeb.webp" alt="Let's
-Eat!" width="400"/>
+<img src="https://images.suchaaverchahal.com/dungeonMeshiForWeb.webp" alt="Let's Eat!" width="400"/>
 
 I completed this one in the middle of the year, and it was my most
 difficult piece to date. Multiple characters in a POV shot. I pulled out all the
@@ -48,8 +45,7 @@ making food in a dungeon. It's a good comedy with great worldbuilding. I highly
 recommend it.
 
 <figure>
-<img src="https://images.suchaaverchahal.com/BakugoAndDeku.webp" alt="Heavy
-is the Crown" />
+<img src="https://images.suchaaverchahal.com/BakugoAndDeku.webp" alt="Heavy is the Crown" />
 <figcaption style="text-align:center;"><i>Heavy is the Crown</i> and <i>Is This the Strength You Sought?</i></figcaption>
 </figure>
 
