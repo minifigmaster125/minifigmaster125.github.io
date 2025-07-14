@@ -12,7 +12,7 @@ published: true
 >> Another choice quote comes from Antoine de Saint-Exupery: 'Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.'
 >> Closer to home, I’ll note that every time I revise a chapter in this book, it gets shorter. Some chapters are tightened by 20% by the time they’re done.
 
-&nbsp;&nbsp;&nbsp;&nbsp; The main takeaway of the book *How to Take Smart Notes* by Sonke Ahrens springs to mind – interesting ideas exist at the intersection of domains. So while I focus on software architecture, I'm more interested in what it reveals about simplicity. 
+&nbsp;&nbsp;&nbsp;&nbsp; The main takeaway of the book *How to Take Smart Notes* by Sonke Ahrens springs to mind – interesting ideas exist at the intersection of domains. So while I could focus on software architecture, I'm more interested in what it reveals about simplicity. 
 
 &nbsp;&nbsp;&nbsp;&nbsp; Humanity is drawn to brevity. By conveying the upper limit of function in the lower limit of form, the creator finds accomplishment; the observer, depth. What is left is the essence. The most concrete version of this might be a well-crafted poem. The poet uses mastery of language to speak volumes in a single sentence, imbued with the meter of choice. We are filled with emotion. 
 
