@@ -1,6 +1,6 @@
 ---
 title: Software, Poetry, Painting, and Simplicity 
-date: 2025-07-11
+date: 2025-07-15
 description: It's all the same, actually.
 tags: life, art, software 
 read_time: 7
