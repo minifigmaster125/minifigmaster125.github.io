@@ -15,11 +15,13 @@
 {#each data.posts as post}
 	<div class="py-3">
 		<a href={LinkHandler(`/blog/${post.metadata.slug}`)}>
-			<div class="flex flex-wrap items-baseline gap-x-4 gap-y-2 sm:flex-nowrap flex-col md:flex-row">
-				<p class="flex-none w-48 text-sm">{format(post.metadata.date, 'PP')}</p>
+			<div
+				class="flex flex-col flex-wrap items-baseline gap-x-4 gap-y-2 sm:flex-nowrap md:flex-row"
+			>
+				<p class="w-48 flex-none text-sm">{format(post.metadata.date, 'PP')}</p>
 				<p>{post.metadata.title}</p>
-				<div class="w-14 flex-none hidden md:block"></div>
-				<div class="md:ml-auto flex flex-none gap-x-2">
+				<div class="hidden w-14 flex-none md:block"></div>
+				<div class="flex flex-none gap-x-2 md:ml-auto">
 					{#each post.metadata.tags as tag}
 						<Tag name={tag} />
 					{/each}

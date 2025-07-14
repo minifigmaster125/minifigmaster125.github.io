@@ -18,3 +18,7 @@
 .prose {
 	max-width: 100%;
 }
+
+.prose blockquote {
+	@apply border-s-amber-700;
+}
