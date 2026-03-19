@@ -1,9 +1,9 @@
 ---
-title: One Universe 
-date: 2025-07-15
+title: A Universe 
+date: 2026-03-18
 description: It's all the same, actually.
-tags: life, art, software 
-read_time: 7
+tags: life, gamedev,
+read_time: 1
 published: true
 ---
 
