@@ -20,6 +20,7 @@
 				<a href={LinkHandler('/blog')}>blog</a>
 				<a href={LinkHandler('/art')}>art</a>
 				<a href={LinkHandler('/about')}>about</a>
+				<a href={LinkHandler('/misc')}>misc</a>
 			</nav>
 		</div>
 		{@render children()}
