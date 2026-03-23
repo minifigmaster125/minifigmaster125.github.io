@@ -3,6 +3,7 @@ import { error } from '@sveltejs/kit'
 import type { Metadata, Post } from '$lib'
 import type { PageLoad } from './$types';
 import  showdown  from "showdown"
+import { dev } from '$app/environment';
 
 const conv = new showdown.Converter({metadata: true});
 
@@ -29,7 +30,7 @@ export const load : PageLoad = async ({ params }) => {
 
         const meta = { ...metadata, slug, tags: metadata.tags.split(','), published: metadata.published == 'true' } satisfies Metadata
         const post = {metadata: meta, html} 
-            if (post.metadata.published){
+            if (post.metadata.published || dev) {
                 posts.push(post)
             }
 	}
