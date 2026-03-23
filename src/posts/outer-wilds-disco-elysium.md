@@ -1,9 +1,9 @@
 ---
-title: A Universe 
+title: Take a Step
 date: 2026-03-18
 description: It's all the same, actually.
 tags: life, gamedev,
-read_time: 1
+read_time: 2
 published: true
 ---
 
@@ -26,7 +26,7 @@ With great effort, I poked one of the blips. It, along
 with a few others nearby, jittered imperceptibly. Nothing else moved. I
 faltered. 
 
-What was meaningful in a Self so insignificant?
+What mattered in a Self so insignificant? *Step back*.
   
 In the second, I again ventured to the edge. The darkness, however, was within. I
 met the parts of me, but the more I got to know them, the more splintered they
@@ -40,4 +40,4 @@ was
 startled. The Selves outside were shaken, their pieces deeply intertwined with
 mine. This web that was without ending, also had no beginning. I faltered.
 
-What wasn't meaningful in a Self so all-encompassing?
+What didn't matter in a Self so all-encompassing? *Step forward.*
