@@ -60,24 +60,32 @@ async function getPosts() {
     return new Response(body, {headers})
   }
   
-  const xml =
-    (posts: Post[]) => `<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+const escapeXml = (value: string) =>
+  value
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&apos;')
+
+const escapeCdata = (value: string) => value.replaceAll(']]>', ']]]]><![CDATA[>')
+
+const xml =
+  (posts: Post[]) => `<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
     <channel>
-      <title>${name}</title>
-      <link>${website}</link>
-      <description>${description}</description>
+      <title>${escapeXml(name)}</title>
+      <link>${escapeXml(website)}</link>
+      <description>${escapeXml(description)}</description>
       ${posts
         .map(
           post =>
             `
           <item>
-            <title>${post.metadata.title}</title>
-            <description>${post.metadata.description}</description>
-            <link>${website}/blog/${post.metadata.slug}</link>
-            <pubDate>${new Date(post.metadata.date)}</pubDate>
-            <content:encoded>
-                ${post.html}
-              </content:encoded>
+            <title>${escapeXml(post.metadata.title)}</title>
+            <description>${escapeXml(post.metadata.description)}</description>
+            <link>${escapeXml(`${website}/blog/${post.metadata.slug}`)}</link>
+            <pubDate>${new Date(post.metadata.date).toUTCString()}</pubDate>
+            <content:encoded><![CDATA[${escapeCdata(post.html)}]]></content:encoded>
           </item>
         `,
         )
