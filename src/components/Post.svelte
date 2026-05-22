@@ -16,16 +16,21 @@
 
 <div class={className}>
 	<div class="py-4">
-		<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2 sm:flex-nowrap">
+		<div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2 sm:flex-nowrap py-2">
 			<h1>{title}</h1>
-			<p class="flex-none">{read_time} min read</p>
+			<!-- <p class="flex-none">{read_time} min read</p> -->
+            <div class="flex gap-x-1">
+                {#each tags as tag, i}
+                    <Tag name={tag} />
+                    {#if i < tags.length - 1}
+                        <span class="text-sm text-amber-700">&middot;</span> 
+                    {/if}
+                {/each}
+            </div>
 		</div>
-		<p class="flex-none py-2">{formattedDate}</p>
-		<div class="flex gap-x-4">
-			{#each tags as tag}
-				<Tag name={tag} />
-			{/each}
-		</div>
+		<!-- <p class="flex-none py-2">{formattedDate}</p> -->
+        <p class="flex-none py-2 text-sm text-amber-700">{formattedDate}</p>
+        <p class="flex-none  text-sm text-amber-700">{read_time} minute read</p>
 	</div>
 
 	<div class="prose">

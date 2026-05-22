@@ -21,9 +21,12 @@
 				<p class="w-48 flex-none text-sm">{format(post.metadata.date, 'PP')}</p>
 				<p>{post.metadata.title}</p>
 				<div class="hidden w-14 flex-none md:block"></div>
-				<div class="flex flex-none gap-x-2 md:ml-auto">
-					{#each post.metadata.tags as tag}
+				<div class="flex flex-none gap-x-1 md:ml-auto">
+					{#each post.metadata.tags as tag, i}
 						<Tag name={tag} />
+						{#if i < post.metadata.tags.length - 1}
+							<span class="text-sm text-amber-700">&middot;</span>
+						{/if}
 					{/each}
 				</div>
 			</div>
