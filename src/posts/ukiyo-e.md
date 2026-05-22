@@ -19,3 +19,5 @@ The prints had unique choices of composition and point of view. One in particula
 I was moved reading Van Gogh's letters when I visited the Van Gogh Museum in [Amsterdam](https://www.suchaaverchahal.com/blog/the-amsterdam-experience). How strange it was that he popped up again. I felt a warmth and realized that I am [in good hands](https://stephango.com/in-good-hands).
 
 Hiroshige, to Van Gogh, to Suchaaver. Ah, but does my name belong alongside theirs?
+
+![Tokyo Little House](/tokyo-little-house.jpg)

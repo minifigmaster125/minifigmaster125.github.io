@@ -183,8 +183,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "9939c3ad1dd64fde",
+  "active": "85e3d887f0ebf15f",
   "lastOpenFiles": [
+    "static/tokyo-little-house.jpg.sb-9ff2eeff-D64TgO",
+    "static/tokyo-little-house.jpg",
+    "static/tokyo-little-house.jpeg",
+    "static/tokyo-little-house.jpg.sb-9ff2eeff-8BkyPD",
+    "static/tokyo-little-house.jpg.sb-9ff2eeff-cztSV0",
     "vite.config.ts.timestamp-1779419472033-de1c7328492388.mjs",
     "vite.config.ts.timestamp-1779394442480-fa47e5f44cd0b8.mjs",
     "src/posts/software-poetry-simplicity.md",
