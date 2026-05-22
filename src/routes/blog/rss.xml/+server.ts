@@ -8,6 +8,12 @@ const description='Contemplation during creation - art, engineering, etc.'
 
 const conv = new showdown.Converter({metadata: true});
 
+function absolutizeContentUrls(html: string) {
+  return html
+    .replace(/(<img[^>]*\ssrc=["'])(\/[^"']*)(["'])/gi, `$1${website}$2$3`)
+    .replace(/(<a[^>]*\shref=["'])(\/[^"']*)(["'])/gi, `$1${website}$2$3`)
+}
+
 interface metadata {
     title: string,
     slug: string,
@@ -26,7 +32,7 @@ async function getPosts() {
 	for (const path in paths) {
 		const slug = path.split('/').at(-1)?.replace('.md', '') as string
     const rawMarkdown = await import(`../../../posts/${slug}.md?raw`)
-    const html = conv.makeHtml(rawMarkdown.default);
+    const html = absolutizeContentUrls(conv.makeHtml(rawMarkdown.default));
     const metadata = conv.getMetadata(false) as metadata;
 
     const meta = { ...metadata, slug, tags: metadata.tags.split(','), published: metadata.published == 'true' } satisfies Metadata
