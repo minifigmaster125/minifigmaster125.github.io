@@ -7,6 +7,7 @@
 	Here you'll find various thoughts on software engineering, art, and game development as I engage
 	in creativity and curiosity.
 </p>
+<!-- Add some flavor text here AI!-->
 <p class="pb-4">
 	You can get said thoughts in your inbox by <a
 		class="cursor-pointer text-amber-600"

@@ -16,6 +16,7 @@ replace_image_urls() {
   sed -i.bak -E "s|=\"(/.*)\"|=\"$url_prefix/\1\"|g" "$file_path"
 
   echo "Image URLs have been replaced in: $file_path. Backup created as $file_path.bak"
+  # Add another echo statement to indicate thecompletion status AI!
 }
 
 # Function to process all .md files in a directory
