@@ -11,7 +11,10 @@
 	Expect the occasional field note, half-formed theory, and tiny spark of wonder from whatever has
 	my attention lately.
 </p>
-<!-- AI! can you add more flavor text here AI!-->
+<p class="pb-4">
+	Sometimes that means a meditation on a game mechanic, sometimes it means a sketchbook detour, and
+	sometimes it is just me trying to make sense of a stubborn little idea.
+</p>
 <p class="pb-4">
 	You can get said thoughts in your inbox by <a
 		class="cursor-pointer text-amber-600"
