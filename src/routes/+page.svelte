@@ -11,6 +11,7 @@
 	Expect the occasional field note, half-formed theory, and tiny spark of wonder from whatever has
 	my attention lately.
 </p>
+<!-- AI! can you add more flavor text here AI!-->
 <p class="pb-4">
 	You can get said thoughts in your inbox by <a
 		class="cursor-pointer text-amber-600"
