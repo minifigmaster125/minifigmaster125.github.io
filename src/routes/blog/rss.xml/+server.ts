@@ -27,13 +27,12 @@ async function getPosts() {
 	try {
         let posts: Post[] = []
 
-	const paths = import.meta.glob('../../../posts/*.md', { eager: true })
+	const paths = import.meta.glob('../../../posts/*.md', { eager: true, query: '?raw', import: 'default' })
 
 	for (const path in paths) {
 		const slug = path.split('/').at(-1)?.replace('.md', '') as string
-    const rawMarkdown = await import(`../../../posts/${slug}.md?raw`)
-    const html = absolutizeContentUrls(conv.makeHtml(rawMarkdown.default));
-    const metadata = conv.getMetadata(false) as metadata;
+    const html = absolutizeContentUrls(conv.makeHtml(paths[path] as string));
+    const metadata = conv.getMetadata(false) as unknown as metadata;
 
     const meta = { ...metadata, slug, tags: metadata.tags.split(','), published: metadata.published == 'true' } satisfies Metadata
     const post = {metadata: meta, html} 

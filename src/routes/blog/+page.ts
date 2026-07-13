@@ -20,12 +20,11 @@ export const load : PageLoad = async ({ params }) => {
 	try {
         let posts: Post[] = []
 
-	const paths = import.meta.glob('../../posts/*.md', { eager: true })
+	const paths = import.meta.glob('../../posts/*.md', { eager: true, query: '?raw', import: 'default' })
 
 	for (const path in paths) {
 		const slug = path.split('/').at(-1)?.replace('.md', '') as string
-		const postRaw = await import(`../../posts/${slug}.md?raw`)
-        const html = conv.makeHtml(postRaw.default);
+        const html = conv.makeHtml(paths[path] as string);
         const metadata = conv.getMetadata(false) as unknown as metadata;
 
         const meta = { ...metadata, slug, tags: metadata.tags.split(','), published: metadata.published == 'true' } satisfies Metadata

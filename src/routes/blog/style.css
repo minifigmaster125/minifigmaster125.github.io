@@ -19,6 +19,37 @@
 	max-width: 100%;
 }
 
+.prose :not(pre) > code {
+	border-radius: 0.25rem;
+	background: #b45309;
+	color: #fffbeb;
+	font-size: 0.9em;
+	font-weight: 400;
+	padding: 0.125rem 0.25rem;
+}
+
+.prose :not(pre) > code::before,
+.prose :not(pre) > code::after,
+.prose pre code::before,
+.prose pre code::after {
+	content: none;
+}
+
+.prose pre {
+	overflow-x: auto;
+	border-radius: 0.5rem;
+	background: #1f2937;
+	padding: 1rem;
+}
+
+.prose pre code {
+	background: transparent;
+	color: inherit;
+	font-size: 0.875rem;
+	font-weight: 400;
+	padding: 0;
+}
+
 .prose blockquote {
 	@apply border-s-amber-700;
 }
