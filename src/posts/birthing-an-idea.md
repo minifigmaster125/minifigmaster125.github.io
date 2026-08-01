@@ -43,7 +43,14 @@ My style of coming up with game ideas involves asking a lot of what-if questions
 
 Even with answers to these questions, a plethora actual games could be built. Not much had narrowed in that regard. In this next stage, I refer frequently to this [excellent talk](https://www.youtube.com/watch?v=bGsl3kvntbE) by Adam Saltsman on making small games. I have an idea, but I need to choose how I express it. In Adam's vocabulary I need to choose the *forumla* I actually ship. The idea has *heartfeel* -- I'm very drawn to the characterization and setting. *Brainfeel* then, is how it is materialized -- Adam mentions "Balatro meets Vampire Survivors" as a statement of brainfeel. 
 
-My first formula involved the prime directive of the whirlybird - get away from the shade of its parent so it find a nice sunny spot to settle down in. 
+My first formula involved the prime directive of the whirlybird - get away from the shade of its parent so it find a nice sunny spot to settle down in. How far should it go? As far as it can! This birthed an arcade-style game where you glide through the air and bounce off tree branches, propelling you like trampolines so you can keep going. The run is over when you touch the ground, and you are scored by how far you went. Sounds like a mobile game. I wasn't terribly enthusiastic <sup>2</sup> 
+
+However, from experience I know I cannot out-think all my bad ideas. Maybe you can. I cannot. So I opted to build a prototype of the idea, and let the process of building it bring forth other formulas. The formulas that 
+
+
+---
+1. Or lack thereof
+2. Mobile games can be interesting to build and interesting to play, don't get me wrong. However, this felt like a 3D flappy bird, and that's not my idea of a fun project.
 
 
 
