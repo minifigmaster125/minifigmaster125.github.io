@@ -20,14 +20,14 @@ In *WhirlyBirding*, you are a samara seed! Most seeds drift away from their pare
 
 When I commit to a project, a part of the commitment is deciding how I would like to stretch my current abilities.
 
-For this game, I wanted a character. While (Metanoia)[https://store.steampowered.com/app/4293060/Metanoia] was a well-scoped first step into building games, it's extreme simplicity left me wanting. With a character comes a few things:
+For this game, I wanted a character. While [Metanoia](https://store.steampowered.com/app/4293060/Metanoia) was a well-scoped first step into building games, it's extreme simplicity left me wanting. With a character comes a few things:
 * a character controller (what makes it feel really good?)
 * a reason for being 
 * a world to interact with
 
-I wanted to learn what it's like to build a character controller that makes you want to play just from the way it looks and feels, regardless of what the game is like. (Gunfrog)[https://store.steampowered.com/app/3173130/Gun_Frog/] makes me want to pick up the controller purely because the movement looks like sheer dumb fun.
+I wanted to learn what it's like to build a character controller that makes you want to play just from the way it looks and feels, regardless of what the game is like. [Gunfrog](https://store.steampowered.com/app/3173130/Gun_Frog/) makes me want to pick up the controller purely because the movement looks like sheer dumb fun.
 
-A reason for being and a world to interact with go hand-in-hand as core components of worldbuilding and storytelling. Despite it's humble appearance, I developed a soft world in Metanoia. Coupling the mechanics with the world and story was difficult but incredibly rewarding. This time I wanted to make it more tangible -- a first class object of the game, instead of a supporting actor.
+A reason for being and a world to interact with go hand-in-hand as core components of worldbuilding and storytelling. Despite its humble appearance, I developed a soft world in Metanoia. Coupling the mechanics with the world and story was difficult but incredibly rewarding. This time I wanted to make it more tangible -- a first class object of the game, instead of a supporting actor.
 
 A consequence of building a more tangible world is the demands it puts on content. Characters need art, animation, visual effects, sound effects, and maybe even voice acting. Being an indie means putting constraints so that fidelity of the game stays high while the production timeline stays sane. Some game's are really clever -- *Return of the Obra Dinn* has you investigate a nonlinear series of vignettes where each one is a snapshot in time. All the characters are posed in that snapshot and what you get is a method of storytelling that involves no animation at all. There is a significant gap in being able to pose 3D models vs being able to animate them convincingly, and Lucas Pope acknowledged that. 
 
@@ -35,6 +35,7 @@ However, I have been a long time dabbler of the arts, including animation. This 
 
 ### Inception
 
+I have been on a nature reading kick in the last six months, and a lot of my ideas come from my reading. This game is no different. *This is How a Robin Drinks* is a collection of essays on urban nature, and I picked it up on a whim from the library. Under normal circumstances I would have passed it without another thought, but I had just finished a fiction writing course and was primed for short stories. In it, she shares the joy of samara seeds, otherwise known as helicopters or **whirlybirds** .
 
 
 
