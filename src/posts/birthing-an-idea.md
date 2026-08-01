@@ -35,9 +35,15 @@ However, I have been a long time dabbler of the arts, including animation. This 
 
 ### Inception
 
-I have been on a nature reading kick in the last six months, and a lot of my ideas come from my reading. This game is no different. *This is How a Robin Drinks* is a collection of essays on urban nature, and I picked it up on a whim from the library. Under normal circumstances I would have passed it without another thought, but I had just finished a fiction writing course and was primed for short stories. In it, she shares the joy of samara seeds, otherwise known as helicopters or **whirlybirds** .
+I have been on a nature reading kick in the last six months, and a lot of my ideas come from my reading. This game is no different. *This is How a Robin Drinks* is a collection of essays on urban nature, and I picked it up on a whim from the library. Under normal circumstances I would have passed it without another thought, but I had just finished a fiction writing course and was primed for short stories. In one essay, Joanna Brichetto shares the joy of throwing maple seeds and watching them spin as the gently float to the ground. Maple seeds are a kind of Samara, which is a family of winged fruit commonly known as helicopters or **whirlybirds**. 
 
+My style of coming up with game ideas involves asking a lot of what-if questions. That, combined with interesting inputs, gives me a large enough pool to go swimming in. What if you were a whirlybird in a forest, with some level of self-determination? From here, I probe. What would you do? What would you want? What would get in your way? Why would you want it? What would it look like?
 
+### Formulas, Brainfeel, and Heartfeel
+
+Even with answers to these questions, a plethora actual games could be built. Not much had narrowed in that regard. In this next stage, I refer frequently to this [excellent talk](https://www.youtube.com/watch?v=bGsl3kvntbE) by Adam Saltsman on making small games. I have an idea, but I need to choose how I express it. In Adam's vocabulary I need to choose the *forumla* I actually ship. The idea has *heartfeel* -- I'm very drawn to the characterization and setting. *Brainfeel* then, is how it is materialized -- Adam mentions "Balatro meets Vampire Survivors" as a statement of brainfeel. 
+
+My first formula involved the prime directive of the whirlybird - get away from the shade of its parent so it find a nice sunny spot to settle down in. 
 
 
 
