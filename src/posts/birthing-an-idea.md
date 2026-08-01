@@ -45,11 +45,26 @@ Even with answers to these questions, a plethora actual games could be built. No
 
 My first formula involved the prime directive of the whirlybird - get away from the shade of its parent so it find a nice sunny spot to settle down in. How far should it go? As far as it can! This birthed an arcade-style game where you glide through the air and bounce off tree branches, propelling you like trampolines so you can keep going. The run is over when you touch the ground, and you are scored by how far you went. Sounds like a mobile game. I wasn't terribly enthusiastic <sup>2</sup> 
 
-However, from experience I know I cannot out-think all my bad ideas. Maybe you can. I cannot. So I opted to build a prototype of the idea, and let the process of building it bring forth other formulas. The formulas that 
+However, from experience I know I cannot out-think all my bad ideas. Maybe you can. I cannot.Instead, after a period of thinking comes a period of building. Through the  process of building, other formulas are brought forth. 
+
+### Formula 1
+
+In about a week, I had something like this:
+
+INSERT VIDEO
+
+I thought it was legitmately fun to play despite it's simplicity, and my friends agreed. However, the I couldn't shake the feeling that it was too arcade-y. As I said, I wanted the opportunity for concrete worldbuilding and storytelling, and this again felt like an attempt at making those second-class citizens. I thought that maybe if I extended the reason, I would find more of a game. *While in the air, the seed realizes how little he knows of the world. He endeavors to ride the high winds until he's circled the globe.* In doing so, I might get the opportunity to create different realms, each with their own challenges, creatures, mood, etc.  
+
+It might have 
+
+
+
+ 
+
 
 
 ---
-1. Or lack thereof
+1. Or lack thereof. In which case by reading this maybe you will learn how not to be. I aim to document, not to prescribe.
 2. Mobile games can be interesting to build and interesting to play, don't get me wrong. However, this felt like a 3D flappy bird, and that's not my idea of a fun project.
 
 
