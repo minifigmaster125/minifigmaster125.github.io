@@ -24,7 +24,7 @@
 				class="game flex flex-col flex-wrap items-baseline gap-x-4 gap-y-2 sm:flex-nowrap md:flex-row"
 			>
 				<p class="flex-none text-sm">{game.date}</p>
-				<a class="text-amber-600" href={LinkHandler(`${game.link}`)}>{game.name}</a>
+				<a class="text-amber-600" href={game.link} target="_blank">{game.name}</a>
 				<p>{game.description}</p>
 			</div>
 	</div>
