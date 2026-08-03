@@ -18,9 +18,8 @@
 			<div
 				class="flex flex-col flex-wrap items-baseline gap-x-4 gap-y-2 sm:flex-nowrap md:flex-row"
 			>
-				<p class="w-48 flex-none text-sm">{format(post.metadata.date, 'PP')}</p>
+				<p class="w-24 flex-none text-sm">{format(post.metadata.date, 'PP')}</p>
 				<p>{post.metadata.title}</p>
-				<div class="hidden w-14 flex-none md:block"></div>
 				<div class="flex flex-none gap-x-1 md:ml-auto">
 					{#each post.metadata.tags as tag, i}
 						<Tag name={tag} />

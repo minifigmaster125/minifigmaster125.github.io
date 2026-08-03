@@ -4,7 +4,7 @@
 
 <p class="pb-4">Hi! I'm Suchaaver. I have a penchant for the pithy.</p>
 <p class="pb-4">
-	Here you'll find various thoughts on software engineering, art, and game development as I engage
+	Here you'll find various thoughts on software engineering, art, game development and more as I engage
 	in creativity and curiosity.
 </p>
 <p class="pb-4">

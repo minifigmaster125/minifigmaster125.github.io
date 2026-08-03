@@ -7,7 +7,7 @@ read_time: 6
 published: false
 ---
 
-I've started building my next game, and I thought I'd share how I arrived at the idea. A lot has been written on the subject of finding the right game idea, usually from the lens of commercial success, but "right" is a claim that can only be made in retrospect. The best I can do right now is follow my curiosity and intuition. The righteousness will have to be decided later<sup>1</sup>.
+I've started building my next game, and I thought I'd share how I arrived at the idea. A lot has been written on the subject of finding the right game idea, usually from the lens of commercial success, but "right" is a claim that can only be made in retrospect. The best I can do right now is follow my curiosity and intuition, sprinkled with wisdom from the web. Righteousness will have to be decided later<sup>1</sup>.
 
 ## Whirlybirding
 
@@ -15,17 +15,17 @@ I've started building my next game, and I thought I'd share how I arrived at the
 
 In *Whirlybirding*, you are a samara seed! Most seeds drift away from their parent as soon as they can, but you've opted to climb the top of the tree before takeoff (for reasons that have yet to be made clear). Along the way you'll meet the critters who call this place home, as well as discover the history of your progenitor. Maybe you'll learn what being such a tree means, and go on to be something magnificent yourself. 
 
-
 ### Criteria
 
 A part of my commitment to any project is deciding how I would like to stretch my current abilities.
 
-For this game, I wanted a character. While [Metanoia](https://store.steampowered.com/app/4293060/Metanoia) was a well-scoped first step into building games, its extreme simplicity left me wanting. With a character comes a few things:
+For this game, I wanted a character. While [Metanoia](https://store.steampowered.com/app/4293060/Metanoia) was a well-scoped first step into building games, its simplicity left me wanting. With a character comes:
+
 * a character controller (what makes it feel really good?)
 * a reason for being 
 * a world to interact with
 
- Some games have a character controller that makes me want to play them just from the way they look and feel, regardless of genre. [Gunfrog](https://store.steampowered.com/app/3173130/Gun_Frog/) does this. It just looks like sheer dumb fun, and that's something I'd like to understand better.
+Some games have a character controller that makes me want to play them just from the way they look and feel, regardless of genre. [Gunfrog](https://store.steampowered.com/app/3173130/Gun_Frog/) does this. It just looks like sheer dumb fun, and that's something I'd like to understand better.
 
 A reason for being and a world to interact with go hand-in-hand as core components of worldbuilding and storytelling. Despite its humble appearance, I developed a soft world in Metanoia. Coupling the mechanics with the world and story was difficult but incredibly rewarding. This time I yearned to create something less abstract -- a first class object of the game, instead of a supporting actor.
 

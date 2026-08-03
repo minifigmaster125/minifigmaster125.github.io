@@ -19,8 +19,7 @@
 			<nav class="flex flex-col gap-x-8 font-serif sm:flex-row">
 				<a href={LinkHandler('/blog')}>blog</a>
 				<a href={LinkHandler('/art')}>art</a>
-				<a href={LinkHandler('/about')}>about</a>
-				<a href={LinkHandler('/misc')}>misc</a>
+				<a href={LinkHandler('/games')}>games</a>
 			</nav>
 		</div>
 		{@render children()}
