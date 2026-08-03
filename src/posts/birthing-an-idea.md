@@ -7,7 +7,7 @@ read_time: 6
 published: false
 ---
 
-I've started building my next game, and I thought I'd share how I arrived at the idea. A lot has been written on the subject of finding the right game idea, usually from the lens of commercial success, but "right" is a claim that can only be made in retrospect. The best I can do right now is follow my curiosity and intuition. The righteousness will have to be decided much later<sup>1</sup>.
+I've started building my next game, and I thought I'd share how I arrived at the idea. A lot has been written on the subject of finding the right game idea, usually from the lens of commercial success, but "right" is a claim that can only be made in retrospect. The best I can do right now is follow my curiosity and intuition. The righteousness will have to be decided later<sup>1</sup>.
 
 ## Whirlybirding
 
@@ -57,7 +57,7 @@ I discussed the concept with a friend who shares some of my tastes. As a big fan
 
 At every decision, I must consider constraint in the context of my abilities. I was excited by the formula that was percolating, but a small forest did make me a little anxious. The map of *A Short Hike* is painstakingly designed, the NPCs authored such that the player is exposed to the right amount at the right time. I wracked my brain for a way to constrain the space. How many trees to explore? Maybe three well authored trees, each unique. In thought experiments like these, it helps to reach for extremes. What about just one?
 
-An incredibly clear image blossomed in my mind. A single Yggdrasill-esque tree, something large and complex. You, the player, a seed of the Lower Branches, seeks to ascend it. My friend pitched in with the why: to understand what it means to be this kind of tree. Getting to some branches is obvious, others less so. Distinct features/sections of the tree have their own names. The NPCs (read: inhabitants) of the tree refer to the sections by name, as if they share a collective understanding of the their home. While you ascend, you learn about what it is you come from, and perhaps who it is you ought to be.  
+An incredibly clear image blossomed in my mind. A single Yggdrasill-esque tree, something large and complex. You, the player, a seed of the Lower Branches, seeks to ascend it. My friend pitched in with the why: to understand what it means to be this kind of tree. Getting to some branches is obvious, others less so. Distinct features/sections of the tree have their own names. The NPCs (read: inhabitants) of the tree refer to the sections by name, as they share a collective understanding of their home. While you ascend, you learn about what it is you come from, and perhaps who it is you ought to be.  
 
 This formula feels right. Another prototype is due, which will tell me what limbs to cut off and what thoughts I graft on. As I  build, test, and gain clarity, the final version might look and sound nothing like what I've just posited. However, its embers will persist.
 

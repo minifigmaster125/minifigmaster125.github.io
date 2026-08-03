@@ -53,3 +53,9 @@
 .prose blockquote {
 	@apply border-s-amber-700;
 }
+
+.prose hr {
+		@apply border-0;
+		@apply bg-amber-700;
+		@apply h-0.5;
+}
