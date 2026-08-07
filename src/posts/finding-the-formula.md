@@ -7,7 +7,7 @@ read_time: 7
 published: true
 ---
 
-I've started building my next game, and I thought I'd share how I arrived at the idea. A lot has been written on the subject of finding the right game idea, usually through the lens of commercial success, but "right" is a claim that can only be made in retrospect. [Even successful devs don't get it right all the time](https://www.youtube.com/watch?v=s4k7yDfYx24). The best I can do as of now is follow my curiosity and intuition, sprinkled with wisdom from what I have read. Righteousness will have to be decided later<sup>1</sup>.
+I've started building my next game, and I thought I'd share how I arrived at the idea. A lot has been written on the subject of finding the right game idea, usually through the lens of commercial success, but "right" is a claim that can only be made in retrospect. [Even successful devs struggle with this](https://www.youtube.com/watch?v=s4k7yDfYx24). The best I can do as of now is follow my curiosity and intuition, sprinkled with wisdom from what I have read. Righteousness will have to be decided later<sup>1</sup>.
 
 ### The Pitch
 
