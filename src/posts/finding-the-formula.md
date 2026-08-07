@@ -40,7 +40,7 @@ I have been on a nature reading kick in the last six months, and a lot of my ide
 My style of coming up with game ideas involves asking a lot of what-if questions. That, combined with interesting inputs into my life, gives me a large enough pool to go swimming in. What if you were a whirlybird in a forest, with some level of self-determination? From there, I probed. What would you do? What would you want? What would get in your way? Why would you want it? What would it look like?
 
 <figure>
-<img src="https://images.suchaaverchahal.com/sketch_character.jpg" style="height:600px;" />
+<img src="https://images.suchaaverchahal.com/sketch_character.jpg" style="width:600px;" />
 <figcaption>What if you were this guy?</figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ I discussed the concept with a friend who shares some of my tastes. As a big fan
 An incredibly clear image blossomed in my mind. A single Yggdrasill-esque tree, something large and complex. You, the player, a seed of the Lower Branches, seek to ascend it. I didn't quite have the why, but my friend pitched in: to understand what it means to be this kind of tree, before becoming one. Some puzzle platforming mechanics make the ascent require exploration, conversation, and thought. Distinct features/sections of the tree have their own names. The NPCs (read: inhabitants) of the tree refer to the sections by name, as they share a collective understanding of their home. While you ascend, you learn about what it is you come from, and perhaps who it is you ought to be.  
 
 <figure>
-<img src="https://images.suchaaverchahal.com/sketch_tree.jpg" style="height:600px;" />
+<img src="https://images.suchaaverchahal.com/sketch_tree.jpg" style="width:600px;" />
 <figcaption>A little inspiration</figcaption>
 </figure>
 
