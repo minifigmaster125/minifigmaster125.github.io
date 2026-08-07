@@ -11,7 +11,7 @@ I've started building my next game, and I thought I'd share how I arrived at the
 
 ### The Pitch
 
-In *Whirlybirding*, you are a Samara seed! Most seeds drift away from their parent as soon as they can, but you've opted to climb to the top of the tree before takeoff (for reasons that have yet to be made clear). Along the way you'll meet the critters who call this place home, as well as discover the history of your progenitor. Maybe you'll learn what it means to be such a tree, and go on to be something magnificent yourself. 
+In *Whirlybirding*, you are a samara seed! Most seeds drift away from their parent as soon as they can, but you've opted to climb to the top of the tree before takeoff (for reasons that have yet to be made clear). Along the way you'll meet the critters who call this place home, as well as discover the history of your progenitor. Maybe you'll learn what it means to be such a tree, and go on to be something magnificent yourself. 
 
 
 ### My Criteria 
@@ -26,7 +26,7 @@ Some games have a character controller that makes me want to play them purely be
 
 <figure>
 <img src="https://images.suchaaverchahal.com/gunfrog.webp"/>
-<figcaption> It's a frog with a gun in it's mouth. </figure>
+<figcaption> It's a frog with a gun in its mouth. </figcaption>
 </figure>
 
 A reason for being and a world to interact with go hand-in-hand as core components of worldbuilding and storytelling. Despite its humble appearance, I developed a soft world in Metanoia. Coupling the mechanics with the world and story was difficult but incredibly rewarding. This time I yearned to create something less abstract — a first-class object of the game, instead of a supporting actor. The definition is broad, but I hope to present a clear fantasy for the player, something that Metanoia didn't do well. 
@@ -35,7 +35,7 @@ Building a tangible world places greater demands on content. Characters need art
 
 ### Inception
 
-I have been on a nature reading kick in the last six months, and a lot of my ideas come from my reading. This game is no different. *This is How a Robin Drinks* is a collection of essays on urban nature, and I picked it up on a whim from the library. Under normal circumstances I would have passed it without another thought, but I had just finished a fiction writing course and was primed for short stories. In one essay, Joanna Brichetto shares the joy of throwing maple seeds and watching them spin as they gently float to the ground. Maple seeds are a kind of Samara, which is a family of winged fruit commonly known as helicopters or **whirlybirds**. 
+I have been on a nature reading kick in the last six months, and a lot of my ideas come from my reading. This game is no different. *This is How a Robin Drinks* is a collection of essays on urban nature, and I picked it up on a whim from the library. Under normal circumstances I would have passed it without another thought, but I had just finished a fiction writing course and was primed for short stories. In one essay, Joanna Brichetto shares the joy of throwing maple seeds and watching them spin as they gently float to the ground. Maple seeds are a kind of samara, which is a family of winged fruit commonly known as helicopters or **whirlybirds**. 
 
 My style of coming up with game ideas involves asking a lot of what-if questions. That, combined with interesting inputs into my life, gives me a large enough pool to go swimming in. What if you were a whirlybird in a forest, with some level of self-determination? From there, I probed. What would you do? What would you want? What would get in your way? Why would you want it? What would it look like?
 
@@ -55,7 +55,7 @@ However, from experience I know I cannot out-think all my bad ideas. After a per
 <figure>
 <VIDEO
     controls
-    playslinline
+    playsinline
     preload="metadata"
     >
     <source
@@ -70,12 +70,11 @@ It was fun, and my friends agreed. A ten-second sort of fun, however, and I coul
 
 Yet, I was not excited. I do not find every part of the development journey riveting, but I cannot compromise on the formula itself. When self-imposed deadlines loom and I find a nasty bug at 2:30 AM, motivation might be at an all-time low. Embers of the original formula, no matter how smoldered, will go a long way. For a formula I do not care for, no embers will remain. 
 
-I discussed the concept with a friend who shares some of my tastes. As a big fan of *A Short Hike*, she wondered if my premise and needs would be better suited to that kind of expression. A tiny open world with interesting movement and relatable characters. Together we envisioned the seed exploring a small wood. One of the trees is very large, and while exploring the wood, its goal becomes to climb to the top of the tree. I figured the bouncing and gliding mechanics would still make a lot of sense here, and could be used for novel interactions. At this point, I started to see how I could build a story about the wood, the creatures in it, and why the whirlybird might want to climb a big tree.
+I discussed the concept with a friend who shares some of my tastes. As a big fan of *A Short Hike*, she wondered if my premise and needs would be better suited to that kind of expression. A tiny open world with interesting movement and relatable characters. Together we envisioned the seed exploring a small wood. One of the trees is very large, and the seed decides to climb to the top. I figured the bouncing and gliding mechanics would still make a lot of sense here, and could be used for novel interactions. At this point, I started to see how I could build a story about the wood, the creatures in it, and why the whirlybird might want to climb a big tree.
 
  I was excited by the formula that was percolating, but a small forest made me a little anxious. The map of *A Short Hike* is painstakingly designed, with the NPCs authored such that the player is exposed to the right dosage at the right time. It seemed like a lot to design a forest well enough to keep the player engaged at every point. How different is each tree? Is it just the same with different characters? Is that fun? I wracked my brain for a way to constrain the space. How many trees to explore? Maybe three well authored trees, each unique. In thought experiments like these, it helps to reach for extremes. What about just one?
 
 An incredibly clear image blossomed in my mind. A single Yggdrasill-esque tree, something large and complex. You, the player, a seed of the Lower Branches, seek to ascend it. I didn't quite have the why, but my friend pitched in: to understand what it means to be this kind of tree, before becoming one. Some puzzle platforming mechanics make the ascent require exploration, conversation, and thought. Distinct features/sections of the tree have their own names. The NPCs (read: inhabitants) of the tree refer to the sections by name, as they share a collective understanding of their home. While you ascend, you learn about what it is you come from, and perhaps who it is you ought to be.  
-<figure>
 
 <figure>
 <img src="https://images.suchaaverchahal.com/sketch_tree.jpg" style="height:600px;" />
@@ -87,7 +86,7 @@ This formula compels me. Another prototype is due, which will tell me what limbs
 <figure>
 <VIDEO
     controls
-    playslinline
+    playsinline
     preload="metadata"
     >
     <source
