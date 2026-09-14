@@ -9,13 +9,15 @@ published: false
 
 I've been building *Whirlybirding* for a little over a month now.  
 
-At first, I was cruising. I began, as one does, with what was most clear in my mind — a third-person character controller and the mechanics of bouncing and gliding. I slapped together a tree, dropped the player character in, and wandered aimlessly. It was clear that my vision was blurry. I'm myopic, so this should have come as no surprise. I can tell the street sign is green, but don't ask me what it says. The same was true of my game.
+At first, I was cruising. I began, as one does, with what was most clear in my mind — a third-person character controller and the mechanics of bouncing and gliding. I slapped together a tree, dropped the player character in, and wandered around. Faced with the empty expanse of my virtual surroundings, I just couldn't make out what the world should look like. It became clear that my vision was blurry. I'm myopic, so this should have come as no surprise. I can tell the street sign is green, but don't ask me what it says. The same was true of my game.
 
 What does the tree really look like? Can the player jump?  How far apart should the branches be?  Is climbing the tree more of a puzzle challenge or a skill challenge? What does the player actually gain from talking to NPCs? What's the first thing I can put in front of playtesters?
 
 The Question Heavyweight loomed large, its jabs and straights keeping me on the ropes. The last question, however, seemed like something I could respond to. Give the player a branch to start on, a branch to see, an NPC or two in line of sight, and let them explore. The other questions would answer themselves.
 
-It feels very similar to the artistic process. I have never fully realized a painting by laying down strokes exactly as I had imagined. Sketches help me discover the work's final form. Game development uses prototypes or test builds. It takes the wrong code, the wrong art, and the wrong designs to find the right ones. I set out to build milestone one. 
+In resolving to do this, I realized that my artistic process is no different. My years of practice have given me intuition, but I still need to draw the wrist a few times to find out which position I am most pleased with. My mind has a vision, but it cannot see all the details. The same is true for game development. I will develop intuition, no doubt, but it will take the wrong code, the wrong art, and the wrong designs first.
+
+I set out to build milestone one.
 
 ## The First Ascent
 
