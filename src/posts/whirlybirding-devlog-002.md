@@ -68,9 +68,9 @@ This actually worked quite well — the players picked up pretty quickly where t
 
 That being said, there is room for improvement. The mushroom has a speed threshold. If the player hits the mushroom faster than the threshold, they are catapaulted in the air. However, it's not clear if they met the threshold upon making contact, prompting questions statements like "I did what the bird said. Why didn't it work?" I don't know how best to communicate this information yet, though I have a few ideas.
 
-After all this, Question Heavyeight doesn't actually appear to be a heavyweight all the time. Instead, its weight fluctuates — the answers I find through playtesting cause him to lose some. At the same time, playtesting asks even more questions, and I find it even more dangerous than before. I don't fret, however. I've seen him diminish once, I can make it happen again. I eagerly await the inflection point, where more questions are answered then asked.
+After all this, Question Heavyweight doesn't isn't a heavyweight all the time. Instead, its weight fluctuates — playtesting answers some questions, but raises others. I eagerly await the inflection point, when more questions are answered than asked.
 
-For now, I work toward milestone two (what is that exactly? Another question? Egads!!)
+For now, I work toward milestone two (what is that exactly? Another question? Egads!)
  
 
 1. No I didn't actually lose any money. Don't do sports betting, kids.
