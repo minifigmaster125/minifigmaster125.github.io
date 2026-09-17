@@ -1,22 +1,11 @@
-# sv
+# Such is Life
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+Personal blog of Suchaaver Chahal
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. Install dependencies using `npm install` or `pnpm install`
+2. Run the dev server
 
 ```bash
 npm run dev
@@ -36,6 +25,12 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## Process
+
+1. Blog posts are written in `src/posts` as .md file with appropriate frontmatter. You can use the nvim `NoNeckPain` command for easier writing
+2. Assets can be added to `assets_raw` while editing, for ease of use on multiple machines. 
+3. Assets should be hosted on Cloudfront R2 storage when finalized, and removed from `assets_raw` once they are no longer needed
 
 ## Misc
 
