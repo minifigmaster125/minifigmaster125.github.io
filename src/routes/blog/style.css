@@ -20,6 +20,7 @@
 	max-width: 100%;
 }
 
+
 .prose :not(pre) > code {
 	border-radius: 0.25rem;
 	background: #b45309;
@@ -59,4 +60,8 @@
 		@apply border-0;
 		@apply bg-amber-700;
 		@apply h-0.5;
+}
+
+figcaption {
+		text-align: center;
 }
