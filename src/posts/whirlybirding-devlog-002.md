@@ -11,14 +11,14 @@ I've been building *Whirlybirding* for a little over a month now.
 
 At first, I was cruising. I began, as one does, with what was most clear in my mind — a third-person character controller and the mechanics of bouncing and gliding. I slapped together a tree, dropped the player character in, and wandered around. The vast emptiness of my virtual expanse had me searching for concrete next steps. It became clear that my vision was blurry. (I'm myopic; this should have come as no surprise.) I was looking for details.
 
-What does the tree really look like? Can the player jump?  How far apart should the branches be?  Is climbing the tree more of a puzzle challenge or a skill challenge? What does the player actually gain from talking to NPCs? What's the first thing I can put in front of playtesters? Question after question clambered into the ring, joining together like the microbots in *Big Hero 6*, until I was face to face with Uncertainty itself. A heavyweight, truly. 
+What does the tree really look like? Can the player jump?  How far apart should the branches be?  Is climbing the tree more of a puzzle challenge or a skill challenge? What does the player actually gain from talking to NPCs (non-player characters)? What's the first thing I can put in front of playtesters? Question after question clambered into the ring, joining together like the microbots in *Big Hero 6*, until I was face to face with Uncertainty itself. A heavyweight, truly. 
 
 <figure>
 <img src="https://images.suchaaverchahal.com/microbots.gif" width=300/>
 <figcaption> This is pretty much what I saw. </figcaption>
 </figure>
 
-It loomed large, its jabs and straights keeping me on the ropes. The last question, however, seemed like something I could respond to. Give the player a branch to start on, a branch to see, an NPC (non-player character) or two in line of sight, and let them explore. The other questions would answer themselves.
+It loomed large, its jabs and straights keeping me on the ropes. The last question, however, seemed like something I could respond to. Give the player a branch to start on, a branch to see, an NPC or two in line of sight, and let them explore. The other questions would answer themselves.
 
 When writing this post, I realized that my artistic process is no different. Years of practice have given me intuition, but I still need to draw the wrist a few times to find the best-looking pose. My mind has a vision, but it cannot see all the details. Now I have the same problem in a different space. Intuition will come, but it will take the wrong code, the wrong art, and the wrong designs first.
 
