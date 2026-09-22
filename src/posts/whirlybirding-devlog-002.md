@@ -27,7 +27,7 @@ I set out to build milestone one.
 ## The First Ascent
 
 The goal of this milestone was threefold. It needed to:
-1. Introduce the player to the mechanics and the world
+1. Introduce the player to the mechanics and the world.
 2. Introduce me to level design that is more show than tell.
 3. Expose the relationship between mechanics in an actual level.
 
