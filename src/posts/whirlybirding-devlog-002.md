@@ -15,7 +15,7 @@ What does the tree really look like? Can the player jump?  How far apart should 
 
 <figure>
 <img src="https://images.suchaaverchahal.com/microbots.gif" width=300/>
-<figcaption> This is pretty much what I saw </figcaption>
+<figcaption> This is pretty much what I saw. </figcaption>
 </figure>
 
 It loomed large, its jabs and straights keeping me on the ropes. The last question, however, seemed like something I could respond to. Give the player a branch to start on, a branch to see, an NPC (non-player character) or two in line of sight, and let them explore. The other questions would answer themselves.
@@ -73,7 +73,7 @@ Unsurprisingly, spending time establishing good workflows makes iteration much e
 
 <figure>
 <img src="https://images.suchaaverchahal.com/modeling-tree.jpg" />
-<figcaption>Tree, in Blender, using the skin modifier for faster modeling </figcaption>
+<figcaption>Tree, in Blender, using the skin modifier for faster modeling. </figcaption>
 </figure>
 
 After suppressing the grunts, I had a vignette of a few branches and a small cast of characters. It was time for someone else to play the game.
