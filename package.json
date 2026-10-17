@@ -34,6 +34,8 @@
 		"vite": "^5.0.3"
 	},
 	"dependencies": {
+		"@atproto/lex": "^0.3.14",
+		"@atproto/lex-password-session": "^0.2.4",
 		"@tailwindcss/forms": "^0.5.9",
 		"@tailwindcss/typography": "^0.5.15",
 		"bits-ui": "^0.21.16",
