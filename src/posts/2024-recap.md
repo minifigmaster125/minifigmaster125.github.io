@@ -2,7 +2,7 @@
 title: A (late) 2024 recap
 date: 2025-01-02
 description: Learning about learning
-tags: art, life
+tags: art,life
 read_time: 5
 published: true
 ---

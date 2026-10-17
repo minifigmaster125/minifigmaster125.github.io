@@ -2,7 +2,7 @@
 title: Take a Step
 date: 2026-03-18
 description: It's all the same, actually.
-tags: life, gamedev,
+tags: life,game-dev
 read_time: 2
 published: true
 ---

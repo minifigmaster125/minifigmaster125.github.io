@@ -2,7 +2,7 @@
 title: I Must Go
 date: 2026-03-30
 description: It's painful though. 
-tags: life, writing 
+tags: life,writing
 read_time: 1
 published: false
 ---

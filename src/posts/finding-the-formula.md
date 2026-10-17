@@ -2,7 +2,7 @@
 title: Finding the Formula - Whirlybirding Devlog 001
 date: 2026-08-07
 description:  Not the wrong way, not the right way.
-tags: game dev
+tags: game-dev
 read_time: 7
 published: true
 ---

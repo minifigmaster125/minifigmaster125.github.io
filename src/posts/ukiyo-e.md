@@ -2,7 +2,7 @@
 title: Ukiyo-e
 date: 2026-05-20
 description: I came, I saw, I took in the history and culture and people.
-tags: art, travel
+tags: art,travel
 read_time: 3
 published: true
 links: "[[the-amsterdam-experience]]"

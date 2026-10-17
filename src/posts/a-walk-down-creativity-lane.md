@@ -2,7 +2,7 @@
 title: A Walk Down Creativity Lane
 date: 2025-01-27
 description: It happens to meander a fair bit.
-tags: creativity, life
+tags: creativity,life
 read_time: 8
 published: true
 ---

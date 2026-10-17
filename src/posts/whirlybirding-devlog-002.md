@@ -2,9 +2,10 @@
 title: Uncertainty, the Heavyweight — Whirlybirding Devlog 002 
 date: 2026-09-22
 description: In which I talk about building the first milestone
-tags: game dev
+tags: game-dev
 read_time: 7
 published: true
+atproto_rkey: 3my3dit427b22
 ---
 
 I've been building *Whirlybirding* for a little over a month now.  
