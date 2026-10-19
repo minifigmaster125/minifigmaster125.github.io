@@ -9,6 +9,12 @@ const config = {
 	preprocess: [vitePreprocess()],
 	kit: {
 		adapter: adapter(),
+		prerender: {
+			handleInvalidUrl: ({ href, message }) => {
+				if (href.startsWith('at://')) return;
+				throw new Error(message);
+			}
+		},
 		paths: {
 			base: process.argv.includes('dev') ? '' : '/minifigmaster125.github.io' 
 		}
