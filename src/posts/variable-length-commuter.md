@@ -5,6 +5,7 @@ description: Fickle things, aren't they?
 tags: art
 read_time: 6
 published: true
+atproto_rkey: 3myadvvjlf223
 ---
 
 I just spent a month in New York City, and I had the opportunity to participate in every artist’s favorite pastime on public transportation – drawing people. On trips to various destinations, both near and far, I succeeded and failed to depict my fellow travelers. In much the same way Einstein arrived at the theory of special relativity by sitting on a tram (with some steps in between), I have arrived at the theory of successful subway sketching.

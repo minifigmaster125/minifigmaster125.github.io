@@ -5,6 +5,7 @@ description: It's all the same, actually.
 tags: life,game-dev
 read_time: 2
 published: true
+atproto_rkey: 3myadvvjekc23
 ---
 
 *A year ago, I finished playing Outer Wilds. This week, I finished Disco

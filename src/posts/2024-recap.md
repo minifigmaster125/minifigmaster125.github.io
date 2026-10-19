@@ -5,6 +5,7 @@ description: Learning about learning
 tags: art,life
 read_time: 5
 published: true
+atproto_rkey: 3myadvvitx223
 ---
 
 Most people would look at previous photos to remember what their year was about.

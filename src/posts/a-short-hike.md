@@ -5,6 +5,7 @@ description: A brief look into what makes a small game feel big
 tags: game-dev
 read_time: 4
 published: true
+atproto_rkey: 3myadvviytc23
 ---
 
 _Expect spoilers. This article takes a look at the game's design. If you don't want the game spoiled, stop reading._

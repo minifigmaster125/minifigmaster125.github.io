@@ -6,6 +6,7 @@ tags: art,travel
 read_time: 3
 published: true
 links: "[[the-amsterdam-experience]]"
+atproto_rkey: 3myadvvjjgk23
 ---
 When I travel, I try to engage with the local art in either a contemporary or historical sense. I find it a unique method of perceiving culture at a point in time. My brief stint in Japan (in late April) led me to the *Ota Memorial Museum of Art*, which featured a collection of *ukiyo-e* by Utagawa Hiroshige called *One Hundred Famous Views of Edo*. Ukiyo-e is a genre of Japanese woodblock printmaking whose name means "pictures of a floating world." Born from the homophone *ukiyo*, a Buddhist term meaning "sorrowful and transient world," *ukiyo-e* aimed instead to celebrate the transient pleasures of urban culture in Edo from the 17th to 19th centuries. You are probably familiar with at least one piece from the era, *The Great Wave off Kanagawa*.
 

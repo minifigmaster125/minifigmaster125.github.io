@@ -5,6 +5,7 @@ description: It happens to meander a fair bit.
 tags: creativity,life
 read_time: 8
 published: true
+atproto_rkey: 3myadvvj7o223
 ---
 
 Two weeks ago a friend and I participated in a game jam, and as a result, made

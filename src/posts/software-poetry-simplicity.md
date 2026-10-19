@@ -5,6 +5,7 @@ description: It's all the same, actually.
 tags: life,art,software
 read_time: 7
 published: true
+atproto_rkey: 3myadvvjgis23
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp; I’m reading  *Game Programming Patterns* by Robert Nystrom, which opens with a question about what good software architecture looks like. As a day-to-day software engineer, the answer isn't surprising – good architecture is simple. Simple enough to be understand without much effort, and simple enough to change without much friction. That holds as true for writing games as it does writing the next ride-share app. Simplicity, however, is not straightforward. Nystrom adds in a footnote:

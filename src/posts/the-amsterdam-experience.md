@@ -5,6 +5,7 @@ description: It's a small big city.
 tags: art,travel
 read_time: 5
 published: true
+atproto_rkey: 3myadvvjihc23
 ---
 
 I just came back from living in Amsterdam for a month. The weather was fantastic (I was not supposed to see the sun). I discoverd biking is truly the most freeing version of transportation, provided that the city treats the biker as a first-class citizen and not an afterthought. I could say a lot more about the museums (artsy) and the people (ex-patsy), but I'll take a slightly different approach. Inspired by the big names, I'll describe some highlights through my art.
