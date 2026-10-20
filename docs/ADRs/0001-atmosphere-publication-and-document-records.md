@@ -31,7 +31,20 @@ A TID encodes a microsecond timestamp and a clock identifier in a 13-character
 base32-sortable string. Use an AT Protocol TID generator, such as
 `@atproto/common-web`'s `TID.nextStr()`, when assigning new keys. The initial batch
 of remaining posts used this generator in a one-off operation. The publishing
-script currently requires a saved key; it does not generate or modify keys.
+script requires a saved key; it does not generate or modify keys.
+
+As of 2026-10-20, a local pre-commit hook calls
+[`scripts/assign-post-tids.ts`](../../scripts/assign-post-tids.ts) to assign missing
+keys to staged published posts and include them in the commit. It validates keys
+and rejects duplicates across staged post snapshots before making changes. If a
+post needing a key has unstaged edits, it stops rather than stage those edits.
+Existing keys are preserved, and drafts receive no new key.
+
+Each clone enables the hook once with `pnpm run hooks:install` after installing
+dependencies. The installer adds only `pre-commit`, preserves other hooks, and
+refuses to overwrite a different existing pre-commit hook. Hooks can be bypassed
+and do not run for edits committed through GitHub's web interface. CI validates
+published records before building and fails if a key is missing or duplicated.
 
 Stability comes from saving and reusing the generated value, not from computing
 it again from mutable metadata. Keep the key when editing or renaming a post,
@@ -82,8 +95,18 @@ It checks that the authenticated DID matches the publication owner, then calls
 
 For the same account, collection, and key, `putRecord` creates the record if absent
 or replaces its contents if present. Repeating the command targets the same
-AT-URI. Publishing is a manual operation, separate from the website build and
-deployment; GitHub Pages does not need PDS credentials.
+AT-URI. Single-post publishing remains available manually. The deployment
+workflow also runs `node scripts/create-document.ts --all --publish` after a
+successful GitHub Pages deployment. It authenticates once for the entire batch
+and skips drafts. All records are prepared and validated before any PDS writes.
+Credentials are available only to the publishing step, not the site build.
+
+The workflow checks out the deployed commit for publishing. A workflow-level
+concurrency group keeps deployment and synchronization runs from overlapping,
+without canceling an in-progress sync. A failed PDS write fails the job and stops
+the batch; earlier successful writes are not rolled back. Rerunning the job
+reuses the saved keys. The site stays deployed if PDS synchronization fails.
+See [PDS deployment setup](../pds-publishing.md) for required repository secrets.
 
 ### Verify the relationship between website and records
 
@@ -122,15 +145,15 @@ are both necessary to complete verification. Posts without a key get no link.
 
 ## Consequences and author workflow
 
-1. Prepare a published Markdown post and assign a unique TID once.
-2. Save the TID as `atproto_rkey` and commit it with the post.
+1. Prepare a published Markdown post and stage it.
+2. Commit the post. The installed hook saves and stages a missing `atproto_rkey`.
 3. Preview the record and inspect its metadata and destination URI.
-4. Run the script with `--publish` to create or update the PDS record.
-5. Deploy the site and check that the live article's verification link matches.
+4. Push to `main`; CI validates records, builds, deploys, and syncs the PDS.
+5. Check the workflow result and the live article's verification link.
 
 Preserve keys across edits. When a slug changes, republish the updated path using
-the same key; website redirects for old URLs are a separate concern. Changes are
-not synchronized automatically. Marking a post unpublished or deleting its file
+the same key; website redirects for old URLs are a separate concern. Successful
+deployments sync all published posts. Marking a post unpublished or deleting its file
 does not remove an already published PDS record; removal needs a separate action.
 
 ## References

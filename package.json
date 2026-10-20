@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
+		"hooks:install": "node scripts/install-hooks.ts",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -12,6 +13,7 @@
 		"lint": "prettier --check . && eslint ."
 	},
 	"devDependencies": {
+		"@atproto/common-web": "0.5.14",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-static": "^3.0.6",
 		"@sveltejs/kit": "^2.0.0",

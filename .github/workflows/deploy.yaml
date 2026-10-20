@@ -7,15 +7,21 @@ on:
   workflow_dispatch:
     inputs:
 
+permissions:
+  contents: read
+
+# Keep a deployment and its PDS sync together before starting the next run.
+concurrency:
+  group: pages-and-pds
+  cancel-in-progress: false
+
 jobs:
   build_site:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Replace Image Urls in Markdown
-        run: bash ./replaceMdImageUrls.sh
 
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -30,6 +36,12 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Validate published post records
+        run: node scripts/create-document.ts --all
+
+      - name: Replace Image Urls in Markdown
+        run: bash ./replaceMdImageUrls.sh
 
       - name: build
         env:
@@ -58,3 +70,35 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
+  publish_posts:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout deployed revision
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 12.14.0
+          cache: true
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Publish post records to PDS
+        env:
+          ATPROTO_SERVICE: ${{ secrets.ATPROTO_SERVICE }}
+          ATPROTO_IDENTIFIER: ${{ secrets.ATPROTO_IDENTIFIER }}
+          ATPROTO_APP_PASSWORD: ${{ secrets.ATPROTO_APP_PASSWORD }}
+        run: node scripts/create-document.ts --all --publish
